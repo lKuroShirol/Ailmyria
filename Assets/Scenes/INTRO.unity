@@ -233,8 +233,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -361.76}
+  m_SizeDelta: {x: 0, y: -818.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &48538423
 MonoBehaviour:
@@ -363,8 +363,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 254.1, y: -199}
-  m_SizeDelta: {x: 110.1012, y: 42.4202}
+  m_AnchoredPosition: {x: 797.38135, y: -442.14}
+  m_SizeDelta: {x: 257.2288, y: 68.148}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &160685313
 MonoBehaviour:
@@ -495,8 +495,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   RadioCirculo: 2.98
-  BotonEscoba: 0
-  objetoVuelo: {fileID: 0}
   libroAbierto: 0
 --- !u!4 &201212217
 Transform:
@@ -802,8 +800,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -133.14813, y: -0.0636}
-  m_SizeDelta: {x: 507.1206, y: 118.146}
+  m_AnchoredPosition: {x: 3.3093, y: 10.212309}
+  m_SizeDelta: {x: 1801.7644, y: 162.1862}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476089414
 MonoBehaviour:
@@ -852,8 +850,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28.54
-  m_fontSizeBase: 28.54
+  m_fontSize: 58.7
+  m_fontSizeBase: 58.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -891,7 +889,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -1.338562, y: 0, z: -259.41483, w: -0.054080978}
+  m_margin: {x: -1.338562, y: 0, z: 330.18283, w: -0.054080978}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1103,8 +1101,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.74
-  m_fontSizeBase: 19.74
+  m_fontSize: 33.38
+  m_fontSizeBase: 33.38
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1283,7 +1281,7 @@ MonoBehaviour:
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
-    mensaje: "NOOOO. \xA1Para conseguir mi grimorio!\r\n"
+    mensaje: "NOOOO. \xA1Para entregar mi grimorio!\r\n"
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
@@ -1498,8 +1496,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 349, y: -199}
-  m_SizeDelta: {x: 42.5079, y: 42.4202}
+  m_AnchoredPosition: {x: 591.8, y: -442.13864}
+  m_SizeDelta: {x: 68.2838, y: 68.1429}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1059495186
 MonoBehaviour:
@@ -1601,7 +1599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!225 &1358778372
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1705,8 +1703,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.6546, y: 21}
-  m_SizeDelta: {x: 776.9733, y: 80.0213}
+  m_AnchoredPosition: {x: -4.1753, y: 25.4379}
+  m_SizeDelta: {x: 1797.6926, y: 130.3176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1436034977
 MonoBehaviour:
@@ -1755,8 +1753,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28.54
-  m_fontSizeBase: 28.54
+  m_fontSize: 58.7
+  m_fontSizeBase: 58.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1794,7 +1792,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 11.977539, y: 0, z: 0, w: -40.834732}
+  m_margin: {x: 11.977539, y: 0, z: 321.12708, w: -40.834732}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1842,8 +1840,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 25, y: 185}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 20, y: 422}
+  m_SizeDelta: {x: 381.9928, y: 292.6573}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1466168016
 MonoBehaviour:
@@ -1892,8 +1890,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 88.9
-  m_fontSizeBase: 88.9
+  m_fontSize: 245.93
+  m_fontSizeBase: 245.93
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1931,7 +1929,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -129.99487, w: -222.4357}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2162,7 +2160,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Empezar
+  m_text: "\xBFEmpezar? "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2189,8 +2187,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.74
-  m_fontSizeBase: 19.74
+  m_fontSize: 34.9
+  m_fontSizeBase: 34.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2414,8 +2412,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -361.76538}
+  m_SizeDelta: {x: 0, y: -818.6425}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2118773733
 MonoBehaviour:
