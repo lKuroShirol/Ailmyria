@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/INTRO.unity
     guid: 5ec73b6f2ce58294181eecca5c4b4cba
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HuertoHortalizas.unity
     guid: 466ca91fc0b4b664093da87d585040e5
+  - enabled: 1
+    path: Assets/Scenes/Bosque.unity
+    guid: 3257fb0b381938742a177de9192b3718
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

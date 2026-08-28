@@ -1183,7 +1183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1018d7b2d10949e4bbd429b34a8fab41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NivelesManager
-  nombreDeLaEscena: SampleScene
+  nombreDeLaEscena: Bosque
   panelFade: {fileID: 1358778372}
   duracionFade: 3
   pantallaUI: {fileID: 0}
