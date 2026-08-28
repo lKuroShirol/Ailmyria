@@ -42,5 +42,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: WorldBack
+    uniqueID: 2307362261
+    locked: 0
+  - name: World
+    uniqueID: 147942797
+    locked: 0
+  - name: WorldFront
+    uniqueID: 2687838783
+    locked: 0
   m_RenderingLayers:
   - Default
