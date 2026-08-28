@@ -1,81 +1,74 @@
-using System;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class BrujitaMove : MonoBehaviour
 {
+    [Header("Movimiento")]
     public float speedMove;
+
     private Vector2 puntoMovimiento;
     public Vector2 offsetPuntoMovimiento;
+
+    [Header("Obstáculos")]
     public LayerMask obstaculos;
     public float RadioCirculo;
+
     private bool IsMoving = false;
     private Vector2 direction;
-    public KeyCode BotonEscoba;
-
-    [Header("Configuración del Vuelo")]
-    public GameObject objetoVuelo;
-    private bool isFlying = false;
 
     [Header("Control del Libro / Menú")]
-    public bool libroAbierto = false; 
+    public bool libroAbierto = false;
 
     [Header("Animación")]
     private Animator animator;
-    private Vector2 ultimaDireccion = Vector2.down; 
+    private Vector2 ultimaDireccion = Vector2.down;
+
+    private BrujitaFlight vuelo;
 
     void Start()
     {
         puntoMovimiento = transform.position;
-        if (objetoVuelo != null) objetoVuelo.SetActive(false);
 
         animator = GetComponent<Animator>();
+        vuelo = GetComponent<BrujitaFlight>();
     }
 
     void Update()
     {
-  
         if (libroAbierto)
         {
             ActualizarAnimaciones(ultimaDireccion, false);
             return;
         }
 
-       
-        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame)
-        {
-            isFlying = !isFlying;
-
-            if (objetoVuelo != null)
-            {
-                objetoVuelo.SetActive(isFlying);
-            }
-        }
-
-      
         if (IsMoving)
         {
-            transform.position = Vector2.MoveTowards(transform.position, puntoMovimiento, speedMove * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(
+                transform.position,
+                puntoMovimiento,
+                speedMove * Time.deltaTime
+            );
 
             if (Vector2.Distance(transform.position, puntoMovimiento) < 0.001f)
             {
                 transform.position = puntoMovimiento;
                 IsMoving = false;
             }
+
             return;
         }
 
-   
         direction = Vector2.zero;
 
         if (Keyboard.current != null)
         {
-            float moveX = (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed ? 1f : 0f) +
-                          (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed ? -1f : 0f);
+            float moveX =
+                (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed ? 1f : 0f) +
+                (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed ? -1f : 0f);
 
-            float moveY = (Keyboard.current.wKey.isPressed || Keyboard.current.upArrowKey.isPressed ? 1f : 0f) +
-                          (Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed ? -1f : 0f);
+            float moveY =
+                (Keyboard.current.wKey.isPressed || Keyboard.current.upArrowKey.isPressed ? 1f : 0f) +
+                (Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed ? -1f : 0f);
 
             if (moveX != 0)
             {
@@ -87,18 +80,29 @@ public class BrujitaMove : MonoBehaviour
             }
         }
 
-        
         if (direction != Vector2.zero)
         {
-            Vector2 puntoEvaluar = (Vector2)transform.position + offsetPuntoMovimiento + direction;
+            Vector2 puntoEvaluar =
+                (Vector2)transform.position +
+                offsetPuntoMovimiento +
+                direction;
 
-            
-            bool puedeMoverse = isFlying;
+            bool estaVolando = vuelo != null && vuelo.IsFlying;
 
-            if (!isFlying)
+            bool puedeMoverse = false;
+
+            if (estaVolando)
             {
-            
-                Collider2D[] collidersDetectados = Physics2D.OverlapCircleAll(puntoEvaluar, RadioCirculo);
+                puedeMoverse = vuelo.PuedeMoverseVolando(puntoEvaluar);
+            }
+
+            else
+            {
+                Collider2D[] collidersDetectados =
+                    Physics2D.OverlapCircleAll(
+                        puntoEvaluar,
+                        RadioCirculo
+                    );
 
                 bool hayObstaculo = false;
                 bool haySueloLibre = false;
@@ -135,6 +139,7 @@ public class BrujitaMove : MonoBehaviour
             {
                 puntoMovimiento += direction;
                 IsMoving = true;
+
                 ultimaDireccion = direction;
 
                 ActualizarAnimaciones(direction, true);
@@ -152,7 +157,8 @@ public class BrujitaMove : MonoBehaviour
 
     void ActualizarAnimaciones(Vector2 dir, bool moviendose)
     {
-        if (animator == null) return;
+        if (animator == null)
+            return;
 
         animator.SetBool("IsMoving", moviendose);
 
@@ -170,8 +176,14 @@ public class BrujitaMove : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Vector2 centroGizmo = Application.isPlaying ? puntoMovimiento : (Vector2)transform.position;
-        Gizmos.color = isFlying ? Color.cyan : Color.yellow;
-        Gizmos.DrawWireSphere(centroGizmo + offsetPuntoMovimiento, RadioCirculo);
+        Vector2 centroGizmo = Application.isPlaying
+            ? puntoMovimiento
+            : (Vector2)transform.position;
+
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(
+            centroGizmo + offsetPuntoMovimiento,
+            RadioCirculo
+        );
     }
 }

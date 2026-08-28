@@ -28,8 +28,21 @@ public class DepthZone2D : MonoBehaviour
 
         playerColliders.Add(other);
 
-        // El jugador está detrás del objeto,
-        // así que el objeto debe dibujarse delante.
+        BrujitaFlight vuelo =
+            other.transform.root.GetComponent<BrujitaFlight>();
+
+        // Avisamos a BrujitaFlight que está dentro de la zona.
+        if (vuelo != null)
+        {
+            vuelo.EntrarDepthZone();
+
+            // Si está volando, la zona NO debe ponerse
+            // delante del jugador.
+            if (vuelo.IsFlying)
+                return;
+        }
+
+        // Está caminando dentro de la zona.
         objectRenderer.sortingLayerName = inFrontOfPlayerLayer;
     }
 
@@ -40,9 +53,21 @@ public class DepthZone2D : MonoBehaviour
 
         playerColliders.Remove(other);
 
+        BrujitaFlight vuelo =
+            other.transform.root.GetComponent<BrujitaFlight>();
+
+        if (vuelo != null)
+        {
+            vuelo.SalirDepthZone();
+
+            // Si está volando, ignoramos completamente
+            // el sorting de la DepthZone.
+            if (vuelo.IsFlying)
+                return;
+        }
+
         if (playerColliders.Count == 0)
         {
-            // El jugador ya no está detrás.
             objectRenderer.sortingLayerName = behindPlayerLayer;
         }
     }

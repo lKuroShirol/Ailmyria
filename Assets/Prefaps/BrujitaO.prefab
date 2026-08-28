@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 8874998067624173029}
   - component: {fileID: 8126209277519716141}
   - component: {fileID: 2636271159974256805}
+  - component: {fileID: 8533517730482002766}
   - component: {fileID: 4979639844188348727}
-  - component: {fileID: 7533469721717830068}
+  - component: {fileID: 6059972727760022267}
   m_Layer: 0
   m_Name: BrujitaO
   m_TagString: Player
@@ -83,8 +84,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 147942797
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8618147458704557654, guid: 93c266599a4cdb741af241a02f1e3797, type: 3}
@@ -137,9 +138,28 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   RadioCirculo: 0.47
-  BotonEscoba: 113
-  objetoVuelo: {fileID: 2157630516354212054}
   libroAbierto: 0
+--- !u!114 &8533517730482002766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569986057792761839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3a16a62f7ecd149a1c0ed5b2c89852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BrujitaFlight
+  objetoVuelo: {fileID: 2157630516354212054}
+  vueloDesbloqueado: 1
+  limiteVuelo:
+    serializedVersion: 2
+    m_Bits: 128
+  radioDeteccion: 0.2
+  obstaculos:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!70 &4979639844188348727
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -177,7 +197,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.040332615, y: -0.24}
   m_Size: {x: 0.9705523, y: 0.9705523}
   m_Direction: 0
---- !u!50 &7533469721717830068
+--- !u!50 &6059972727760022267
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
