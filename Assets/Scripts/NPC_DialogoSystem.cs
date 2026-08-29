@@ -33,6 +33,12 @@ public class NPCInteraccionSecuencial : MonoBehaviour
     public GameObject reaccionBrujita4;
 
     public bool CondicionDialogo;
+    public bool AhoraNuevaCharla;
+
+    [Header("No Mover a menos de que termine la charla")]
+    public GameObject NewDialogoNPC1;
+    [Header("NPC ViejoDialogo")]
+    public GameObject ActualDialogoNPC;
     [System.Serializable]
     public struct DialogoTurno
     {
@@ -99,6 +105,7 @@ public class NPCInteraccionSecuencial : MonoBehaviour
                 CerrarDialogo();
             }
         }
+
     }
 
     void ManejarDialogo()
@@ -138,6 +145,7 @@ public class NPCInteraccionSecuencial : MonoBehaviour
             else
             {
                 CerrarDialogo();
+                if (AhoraNuevaCharla) ActivarNuevaConversación();
             }
         }
     }
@@ -189,7 +197,13 @@ public class NPCInteraccionSecuencial : MonoBehaviour
             rutinaEscritura = StartCoroutine(EscribirTexto(turno.mensaje, textoAUsar));
         }
     }
+    private void ActivarNuevaConversación()
+    {
+        ActualDialogoNPC.SetActive(false);
+        NewDialogoNPC1.SetActive(true);
 
+
+    }
     IEnumerator EscribirTexto(string mensajeCompleto, TextMeshProUGUI campoTexto)
     {
         campoTexto.text = "";
