@@ -19,6 +19,12 @@ public class CamaraBordes : MonoBehaviour
     private float mitadAnchoCamara;
     private float mitadAltoCamara;
 
+    private void Awake()
+    {
+        objetivoActual = GameObject.FindGameObjectWithTag("Player")?.transform;
+        jugador = GameObject.FindGameObjectWithTag("Player")?.transform;
+    }
+
     void Start()
     {
         camara = GetComponent<Camera>();

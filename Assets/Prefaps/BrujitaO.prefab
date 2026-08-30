@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8533517730482002766}
   - component: {fileID: 4979639844188348727}
   - component: {fileID: 6059972727760022267}
+  - component: {fileID: 686738218837270260}
   m_Layer: 0
   m_Name: BrujitaO
   m_TagString: Player
@@ -224,6 +225,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &686738218837270260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569986057792761839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e36a3302591f8f4a9d72c3dca40c58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DontDestroy
+  objectIndex: 1
 --- !u!1 &986360484894403964
 GameObject:
   m_ObjectHideFlags: 0

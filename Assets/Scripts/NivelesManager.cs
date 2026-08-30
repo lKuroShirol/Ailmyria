@@ -11,9 +11,21 @@ public class NivelesManager : MonoBehaviour
     [Tooltip("Cuánto tarda en oscurecerse la pantalla en segundos")]
     public float duracionFade = 1f;
     public GameObject pantallaUI;
+    [SerializeField] private GameObject Bloq;
+    [SerializeField] private float durationBeforeBloq = 1f;
+    [SerializeField] private float movetime = 1f;
+
+    BrujitaMove brujitaMove;
+
+    private void Awake()
+    {
+        brujitaMove = GameObject.FindGameObjectWithTag("Player").GetComponent<BrujitaMove>();
+        brujitaMove.enabled = true;
+    }
 
     void Start()
     {
+        Bloq.gameObject.SetActive(false);
         // Al iniciar la escena, nos aseguramos de que la pantalla empiece visible (transparencia en 0)
         if (panelFade != null)
         {
@@ -60,17 +72,31 @@ public class NivelesManager : MonoBehaviour
         SceneManager.LoadScene(nombreDeLaEscena);
     }
 
-    void Update()
-    {
-
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             print("FUNCIONAA");
+            StartCoroutine(DontMove());
+            StartCoroutine(Bloqueo());
             CambiarEscena();
         }
     }
+
+    IEnumerator Bloqueo()
+    {
+        yield return new WaitForSeconds(durationBeforeBloq);
+        Bloq.gameObject.SetActive(true);
+    }
+    IEnumerator DontMove()
+    {
+        if (brujitaMove != null)
+        {
+            yield return new WaitForSeconds(movetime); // Espera un pequeño tiempo antes de desactivar
+            brujitaMove.enabled = false; // Desactiva el script de movimiento
+            
+        }
+    }
+
 }
