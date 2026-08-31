@@ -880,6 +880,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1908533307687007582, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1987520352}
+    - target: {fileID: 1908533307687007582, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CerrarDialogo
+      objectReference: {fileID: 0}
     - target: {fileID: 3457846017642140980, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 129.6
