@@ -32,7 +32,7 @@ public class NPCInteraccionSecuencial : MonoBehaviour
     public GameObject reaccionBrujita3;
     public GameObject reaccionBrujita4;
 
-    public bool CondicionDialogo;
+   
     public bool AhoraNuevaCharla;
 
     [Header("No Mover a menos de que termine la charla")]
@@ -67,10 +67,23 @@ public class NPCInteraccionSecuencial : MonoBehaviour
 
     [Header("Controles")]
     public Key teclaInteraccion = Key.E;
-
+    public bool CondicionDialogo = false;
     private bool jugadorCerca = false;
     private bool dialogoAbierto = false;
+    public bool TerminoLaInteraccion;
 
+
+    void Awake()
+    {
+        GameObject objetoEncontrado = GameObject.Find("BrujitaO");
+
+        if (objetoEncontrado != null)
+        {
+            brujita = objetoEncontrado.transform;
+            Debug.Log("¡Transform asignado con éxito a: " + objetoEncontrado.name + "!");
+        }
+
+    }
     void Start()
     {
         if (indicadorObjeto != null) indicadorObjeto.SetActive(false);
@@ -105,7 +118,10 @@ public class NPCInteraccionSecuencial : MonoBehaviour
                 CerrarDialogo();
             }
         }
-
+        if(CondicionDialogo&&TerminoLaInteraccion)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     void ManejarDialogo()
@@ -221,8 +237,8 @@ public class NPCInteraccionSecuencial : MonoBehaviour
     public void CerrarDialogo()
     {
         dialogoAbierto = false;
+        TerminoLaInteraccion = true;
         indiceConversacion = 0;
-        CondicionDialogo = true;
 
         if (rutinaEscritura != null)
         {
@@ -261,5 +277,15 @@ public class NPCInteraccionSecuencial : MonoBehaviour
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, distanciaInteraccion);
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(CondicionDialogo&& collision.CompareTag("Player"))
+        {
+            ManejarDialogo();      
+        }
+           
     }
 }

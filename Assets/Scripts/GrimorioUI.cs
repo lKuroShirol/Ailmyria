@@ -27,7 +27,7 @@ public class GrimorioUI : MonoBehaviour
     void Start()
     {
         transform.position = posicionAbajo;
-        ActualizarObjetos();
+       
     }
 
     void Update()
