@@ -35,6 +35,8 @@ public class NPCInteraccionSecuencial : MonoBehaviour
    
     public bool AhoraNuevaCharla;
 
+    GrimorioUI grimorioUI;
+
     [Header("No Mover a menos de que termine la charla")]
     public GameObject NewDialogoNPC1;
     [Header("NPC ViejoDialogo")]
@@ -75,6 +77,7 @@ public class NPCInteraccionSecuencial : MonoBehaviour
 
     void Awake()
     {
+        grimorioUI = FindAnyObjectByType<GrimorioUI>();
         GameObject objetoEncontrado = GameObject.Find("BrujitaO");
 
         if (objetoEncontrado != null)
@@ -106,6 +109,7 @@ public class NPCInteraccionSecuencial : MonoBehaviour
 
             if (Keyboard.current != null && Keyboard.current[teclaInteraccion].wasPressedThisFrame)
             {
+                grimorioUI.isTalk = false;
                 ManejarDialogo();
             }
         }
@@ -121,6 +125,7 @@ public class NPCInteraccionSecuencial : MonoBehaviour
         if(CondicionDialogo&&TerminoLaInteraccion)
         {
             gameObject.SetActive(false);
+            grimorioUI.isTalk = true;
         }
     }
 
@@ -239,6 +244,7 @@ public class NPCInteraccionSecuencial : MonoBehaviour
         dialogoAbierto = false;
         TerminoLaInteraccion = true;
         indiceConversacion = 0;
+        grimorioUI.isTalk = true;
 
         if (rutinaEscritura != null)
         {

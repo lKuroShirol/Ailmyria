@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -38,6 +39,8 @@ public class GrimorioUI : MonoBehaviour
     private CanvasGroup cgB;
     private CanvasGroup cgC;
 
+    public bool isTalk = true;
+
     void Start()
     {
         cgA = ObtenerOCrearCanvasGroup(imagenA);
@@ -55,15 +58,18 @@ public class GrimorioUI : MonoBehaviour
     {
         if (Keyboard.current == null) return;
 
-        if (Keyboard.current[teclaG].wasPressedThisFrame)
+        if (isTalk)
         {
-            menuG_Activo = !menuG_Activo;
+            if (Keyboard.current[teclaG].wasPressedThisFrame)
+            {
+                menuG_Activo = !menuG_Activo;
 
-            if (scriptPlayer != null) scriptPlayer.libroAbierto = menuG_Activo;
+                if (scriptPlayer != null) scriptPlayer.libroAbierto = menuG_Activo;
 
-            if (menuG_Activo) mostrandoB = true;
+                if (menuG_Activo) mostrandoB = true;
 
-            ActualizarVisibilidadEfectiva();
+                ActualizarVisibilidadEfectiva();
+            } 
         }
 
         if (menuG_Activo)
