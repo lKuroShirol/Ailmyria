@@ -8876,9 +8876,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowNPC
   jugador: {fileID: 2080183748}
-  speedMove: 5
-  estaSiguiendo: 0
-  distanciaMaxima: 2
+  speedMove: 10
+  estaSiguiendo: 1
+  distanciaMaxima: 4
   obstaculos:
     serializedVersion: 2
     m_Bits: 8
