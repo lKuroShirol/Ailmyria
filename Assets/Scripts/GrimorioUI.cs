@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -28,12 +27,18 @@ public class GrimorioUI : MonoBehaviour
     public float velocidad = 8f;
     [Tooltip("Margen de píxeles para considerar que un objeto ya llegó a su destino")]
     public float margenLlegada = 2f;
+    [Tooltip("Tiempo de espera extra en segundos después de que el objeto llegó a su destino")]
+    public float retrasoPostLlegada = 0.5f;
 
     [Header("Referencia Opcional al Player")]
     public BrujitaMove scriptPlayer;
 
     private bool menuG_Activo = false;
     private bool mostrandoB = true;
+    private bool estaAnimando = false;
+
+    private float tiempoEsperaRestante = 0f;
+    private bool esperandoRetrasoExtra = false;
 
     private CanvasGroup cgA;
     private CanvasGroup cgB;
@@ -58,21 +63,21 @@ public class GrimorioUI : MonoBehaviour
     {
         if (Keyboard.current == null) return;
 
-        if (isTalk)
+        if (isTalk && !estaAnimando && !esperandoRetrasoExtra)
         {
             if (Keyboard.current[teclaG].wasPressedThisFrame)
             {
                 menuG_Activo = !menuG_Activo;
+                estaAnimando = true; 
 
                 if (scriptPlayer != null) scriptPlayer.libroAbierto = menuG_Activo;
-
                 if (menuG_Activo) mostrandoB = true;
 
                 ActualizarVisibilidadEfectiva();
-            } 
+            }
         }
 
-        if (menuG_Activo)
+        if (menuG_Activo && !estaAnimando && !esperandoRetrasoExtra)
         {
             bool presionaIzquierda = Keyboard.current.aKey.wasPressedThisFrame || Keyboard.current.leftArrowKey.wasPressedThisFrame;
             bool presionaDerecha = Keyboard.current.dKey.wasPressedThisFrame || Keyboard.current.rightArrowKey.wasPressedThisFrame;
@@ -83,6 +88,16 @@ public class GrimorioUI : MonoBehaviour
                 ActualizarVisibilidadEfectiva();
             }
         }
+
+        if (esperandoRetrasoExtra)
+        {
+            tiempoEsperaRestante -= Time.deltaTime;
+            if (tiempoEsperaRestante <= 0f)
+            {
+                esperandoRetrasoExtra = false;
+            }
+        }
+
         ProcesarMovimientosUI();
     }
 
@@ -107,8 +122,10 @@ public class GrimorioUI : MonoBehaviour
     void ProcesarMovimientosUI()
     {
         bool imagenATerminoDeSubir = imagenA != null && Vector2.Distance(imagenA.anchoredPosition, imagenA_FueraSube) <= margenLlegada;
-
         bool imagenBTerminoDeSubir = imagenB != null && Vector2.Distance(imagenB.anchoredPosition, imagenB_FueraSube) <= margenLlegada;
+
+        bool imagenBTerminoDeBajar = imagenB != null && Vector2.Distance(imagenB.anchoredPosition, imagenB_EnEscena) <= margenLlegada;
+        bool imagenATerminoDeBajar = imagenA != null && Vector2.Distance(imagenA.anchoredPosition, imagenA_EnEscena) <= margenLlegada;
 
         Vector2 objetivoA = menuG_Activo ? imagenA_FueraSube : imagenA_EnEscena;
         Vector2 objetivoB = menuG_Activo ? imagenB_EnEscena : imagenB_FueraSube;
@@ -128,12 +145,26 @@ public class GrimorioUI : MonoBehaviour
                 imagenB.anchoredPosition = Vector2.Lerp(imagenB.anchoredPosition, objetivoB, velocidad * Time.deltaTime);
             }
         }
-
         if (imagenC != null)
         {
             if (!menuG_Activo || (menuG_Activo && imagenATerminoDeSubir))
             {
                 imagenC.anchoredPosition = Vector2.Lerp(imagenC.anchoredPosition, objetivoC, velocidad * Time.deltaTime);
+            }
+        }
+        if (estaAnimando)
+        {
+            if (menuG_Activo && imagenBTerminoDeBajar)
+            {
+                estaAnimando = false;
+                esperandoRetrasoExtra = true;
+                tiempoEsperaRestante = retrasoPostLlegada;
+            }
+            else if (!menuG_Activo && imagenATerminoDeBajar)
+            {
+                estaAnimando = false;
+                esperandoRetrasoExtra = true;
+                tiempoEsperaRestante = retrasoPostLlegada;
             }
         }
 

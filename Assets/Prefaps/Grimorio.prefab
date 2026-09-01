@@ -27,14 +27,14 @@ RectTransform:
   m_GameObject: {fileID: 230905518075689367}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.2613053, y: 4.2613053, z: 4.2613053}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4764844630846357147}
+  m_Father: {fileID: 1499708426948436662}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.6, y: 495.5}
+  m_AnchoredPosition: {x: -130.39583, y: 172.58282}
   m_SizeDelta: {x: 42.7005, y: 44.7432}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3017443695994388775
@@ -394,7 +394,6 @@ RectTransform:
   - {fileID: 8762388248257288985}
   - {fileID: 6452354120059559240}
   - {fileID: 1499708426948436662}
-  - {fileID: 1857928182243464667}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -427,6 +426,7 @@ MonoBehaviour:
   velocidad: 5
   margenLlegada: 100
   scriptPlayer: {fileID: 0}
+  isTalk: 1
 --- !u!1 &3659542421491333343
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,7 +646,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2346699, y: 0.2346699, z: 0.2346699}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1857928182243464667}
   m_Father: {fileID: 4764844630846357147}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
