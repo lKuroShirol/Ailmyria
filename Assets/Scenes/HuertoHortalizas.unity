@@ -8656,6 +8656,7 @@ GameObject:
   - component: {fileID: 1987520354}
   - component: {fileID: 1987520353}
   - component: {fileID: 1987520352}
+  - component: {fileID: 1987520356}
   m_Layer: 0
   m_Name: Dalia
   m_TagString: Untagged
@@ -8862,6 +8863,27 @@ Transform:
   - {fileID: 172524344}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1987520356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987520351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd54f3855409d84ebf80659446401d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FollowNPC
+  jugador: {fileID: 2080183748}
+  speedMove: 5
+  estaSiguiendo: 0
+  distanciaMaxima: 2
+  obstaculos:
+    serializedVersion: 2
+    m_Bits: 8
+  RadioCirculo: 0.45
+  offsetPuntoMovimiento: {x: -0.04, y: -0.23}
 --- !u!1001 &1999774812
 PrefabInstance:
   m_ObjectHideFlags: 0
