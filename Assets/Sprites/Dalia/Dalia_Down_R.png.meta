@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 4a3420423327c114c82884c700fb252d
+guid: b9f035861ac58014985cd95dd7303182
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2431219163676686530
-    second: conejo_triste_0
+      213: 2710713932654630071
+    second: Dalia_Down_R_0
+  - first:
+      213: 2484453292806467627
+    second: Dalia_Down_R_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: conejo_triste_0
+      name: Dalia_Down_R_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 108
-        height: 95
+        width: 17
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c8321eb2fc6db120800000000000000
-      internalID: 2431219163676686530
+      spriteID: 7b4d493b5f36e9520800000000000000
+      internalID: 2710713932654630071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dalia_Down_R_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2077ca4b1d8a7220800000000000000
+      internalID: 2484453292806467627
       vertices: []
       indices: 
       edges: []
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      conejo_triste_0: 2431219163676686530
+      Dalia_Down_R_0: 2710713932654630071
+      Dalia_Down_R_1: 2484453292806467627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
