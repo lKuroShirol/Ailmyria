@@ -17,7 +17,7 @@ public class Chispa : MonoBehaviour
 
     private Hechizos_Manager hechizosManager;
     private BrujitaMove brujitaMove;
-
+    public Key TeclaChispa=Key.C;
     private Vector3 posicionInicial;
     private Animator brujitaAnimator;
     SpriteRenderer chispaSprite;
@@ -40,7 +40,7 @@ public class Chispa : MonoBehaviour
         if (!hechizosManager.chispaDesbloqueada)
             return;
 
-        if (Keyboard.current.cKey.wasPressedThisFrame)
+        if (Keyboard.current[TeclaChispa].wasPressedThisFrame)
         {
 
             if (!isCasting)
