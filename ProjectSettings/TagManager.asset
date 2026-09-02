@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - XD
+  - DesObjects
   layers:
   - Default
   - TransparentFX
