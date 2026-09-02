@@ -25,6 +25,9 @@ public class BrujitaMove : MonoBehaviour
 
     private BrujitaFlight vuelo;
 
+    private Vector2 ultimaDireccionHorizontal = Vector2.right;
+    public Vector2 DireccionHorizontal => ultimaDireccionHorizontal;
+
     void Start()
     {
         puntoMovimiento = transform.position;
@@ -141,7 +144,10 @@ public class BrujitaMove : MonoBehaviour
                 IsMoving = true;
 
                 ultimaDireccion = direction;
-
+                if (direction.x != 0)
+                {
+                    ultimaDireccionHorizontal = new Vector2(direction.x, 0);
+                }
                 ActualizarAnimaciones(direction, true);
             }
             else
