@@ -9010,6 +9010,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BrujitaO
       objectReference: {fileID: 0}
+    - target: {fileID: 1059892569200003764, guid: b3e34290eea470d4584f84f5121e44dc, type: 3}
+      propertyPath: TeclaChispa
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 8561532186878593300, guid: b3e34290eea470d4584f84f5121e44dc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -38.541
