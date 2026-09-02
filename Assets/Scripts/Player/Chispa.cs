@@ -8,25 +8,35 @@ public class Chispa : MonoBehaviour
 
     [SerializeField] private GameObject chispaObject;
     [SerializeField] private Animator chispaAnimator;
+    [SerializeField] private Collider2D chispaCollider;
 
     [Header("Lanzamiento")]
-    [SerializeField] private float launchDelay = 0.8f;
+    [SerializeField] private float launchDelay = 1.5f;
     [SerializeField] private float velocidadChispa = 5f;
 
     private bool isLaunching = false;
 
     private Hechizos_Manager hechizosManager;
     private BrujitaMove brujitaMove;
-    public Key TeclaChispa=Key.C;
+    public Key TeclaChispa = Key.C;
+
     private Vector3 posicionInicial;
     private Animator brujitaAnimator;
-    SpriteRenderer chispaSprite;
+    private SpriteRenderer chispaSprite;
 
     private void Awake()
     {
         posicionInicial = chispaObject.transform.localPosition;
+
         chispaSprite = chispaObject.GetComponent<SpriteRenderer>();
+
         chispaObject.SetActive(false);
+
+        if (chispaCollider != null)
+        {
+            chispaCollider.enabled = false;
+        }
+
         brujitaMove = GetComponent<BrujitaMove>();
         hechizosManager = GetComponent<Hechizos_Manager>();
         brujitaAnimator = GetComponent<Animator>();
@@ -42,7 +52,6 @@ public class Chispa : MonoBehaviour
 
         if (Keyboard.current[TeclaChispa].wasPressedThisFrame)
         {
-
             if (!isCasting)
             {
                 isCasting = true;
@@ -95,6 +104,11 @@ public class Chispa : MonoBehaviour
 
         yield return new WaitForSeconds(0.3f);
 
+        if (chispaCollider != null)
+        {
+            chispaCollider.enabled = true;
+        }
+
         chispaAnimator.SetTrigger("Lanzar");
 
         Debug.Log("Chispa lanzada hacia: " + direccion);
@@ -109,6 +123,11 @@ public class Chispa : MonoBehaviour
             tiempo += Time.deltaTime;
 
             yield return null;
+        }
+
+        if (chispaCollider != null)
+        {
+            chispaCollider.enabled = false;
         }
 
         chispaObject.SetActive(false);
