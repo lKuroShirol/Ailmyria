@@ -7,42 +7,26 @@ public class Chispa : MonoBehaviour
     public bool isCasting = false;
 
     [SerializeField] private GameObject chispaObject;
-    [SerializeField] private Animator chispaAnimator;
-    [SerializeField] private Collider2D chispaCollider;
-
-    [Header("Lanzamiento")]
-    [SerializeField] private float launchDelay = 1.5f;
-    [SerializeField] private float velocidadChispa = 5f;
-
-    private bool isLaunching = false;
 
     private Hechizos_Manager hechizosManager;
-    private BrujitaMove brujitaMove;
+
     public Key TeclaChispa = Key.C;
 
     private Vector3 posicionInicial;
-    private Animator brujitaAnimator;
-    private SpriteRenderer chispaSprite;
+
+    [SerializeField] private float tiempoEncendido = 10f;
+
+    private Coroutine coroutineChispa;
 
     private void Awake()
     {
         posicionInicial = chispaObject.transform.localPosition;
 
-        chispaSprite = chispaObject.GetComponent<SpriteRenderer>();
-
         chispaObject.SetActive(false);
 
-        if (chispaCollider != null)
-        {
-            chispaCollider.enabled = false;
-        }
-
-        brujitaMove = GetComponent<BrujitaMove>();
         hechizosManager = GetComponent<Hechizos_Manager>();
-        brujitaAnimator = GetComponent<Animator>();
 
         isCasting = false;
-        isLaunching = false;
     }
 
     private void Update()
@@ -52,95 +36,57 @@ public class Chispa : MonoBehaviour
 
         if (Keyboard.current[TeclaChispa].wasPressedThisFrame)
         {
+            // Si la chispa está apagada
             if (!isCasting)
             {
-                isCasting = true;
-                chispaObject.SetActive(true);
-
-                chispaObject.transform.localPosition = posicionInicial;
-
-                Debug.Log("Chispa encendida");
+                coroutineChispa = StartCoroutine(EncenderLuz());
             }
-            else if (!isLaunching)
+            // Si la chispa está encendida y tiene el anillo
+            else if (hechizosManager.anilloDesbloqueado)
             {
-                StartCoroutine(LanzarChispa());
+                ApagarChispa();
             }
         }
     }
 
-    private IEnumerator LanzarChispa()
+    private IEnumerator EncenderLuz()
     {
-        isLaunching = true;
         isCasting = true;
 
+        chispaObject.SetActive(true);
         chispaObject.transform.localPosition = posicionInicial;
 
-        Vector2 direccion = brujitaMove.DireccionHorizontal;
+        Debug.Log("Chispa encendida");
 
-        if (direccion == Vector2.right)
+        // Con el anillo no hay límite de tiempo
+        if (hechizosManager.anilloDesbloqueado)
         {
-            chispaSprite.flipX = false;
-        }
-        else if (direccion == Vector2.left)
-        {
-            chispaSprite.flipX = true;
+            coroutineChispa = null;
+            yield break;
         }
 
-        if (brujitaMove != null)
-        {
-            brujitaMove.enabled = false;
-        }
-
-        if (direccion.x > 0)
-        {
-            brujitaAnimator.SetFloat("LanzamientoDireccion", 1f);
-        }
-        else
-        {
-            brujitaAnimator.SetFloat("LanzamientoDireccion", -1f);
-        }
-
-        brujitaAnimator.SetBool("IsCasting", true);
-
-        yield return new WaitForSeconds(0.3f);
-
-        if (chispaCollider != null)
-        {
-            chispaCollider.enabled = true;
-        }
-
-        chispaAnimator.SetTrigger("Lanzar");
-
-        Debug.Log("Chispa lanzada hacia: " + direccion);
-
-        float tiempo = 0f;
-
-        while (tiempo < launchDelay)
-        {
-            chispaObject.transform.localPosition +=
-                (Vector3)direccion * velocidadChispa * Time.deltaTime;
-
-            tiempo += Time.deltaTime;
-
-            yield return null;
-        }
-
-        if (chispaCollider != null)
-        {
-            chispaCollider.enabled = false;
-        }
-
-        chispaObject.SetActive(false);
-        chispaObject.transform.localPosition = posicionInicial;
+        // Sin el anillo, permanece encendida durante este tiempo
+        yield return new WaitForSeconds(tiempoEncendido);
 
         isCasting = false;
-        isLaunching = false;
+        chispaObject.SetActive(false);
 
-        brujitaAnimator.SetBool("IsCasting", false);
+        coroutineChispa = null;
 
-        if (brujitaMove != null)
+        Debug.Log("Chispa apagada por tiempo");
+    }
+
+    private void ApagarChispa()
+    {
+        if (coroutineChispa != null)
         {
-            brujitaMove.enabled = true;
+            StopCoroutine(coroutineChispa);
+            coroutineChispa = null;
         }
+
+        isCasting = false;
+        chispaObject.SetActive(false);
+
+        Debug.Log("Chispa apagada");
     }
 }

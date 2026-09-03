@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Chispa_Collider : MonoBehaviour
+public class Viento_Collider : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
