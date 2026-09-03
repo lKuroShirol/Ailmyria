@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eabde8123d66a124fba366e432a0f59b
+guid: 1262f26f02479fa47b8cf94b2f4c5466
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7054613358983588481
-    second: tronco 2_0
+      213: -1899814021553860519
+    second: sombra_arbol_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tronco 2_0
+      name: sombra_arbol_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3
-        width: 16
-        height: 29
+        x: 261
+        y: 156
+        width: 27
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18a21f9197507e160800000000000000
-      internalID: 7054613358983588481
+      spriteID: 950d9f9863182a5e0800000000000000
+      internalID: -1899814021553860519
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: b3bdb04567027f540a76179f7b35cd51
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tronco 2_0: 7054613358983588481
+      sombra_arbol_0: -1899814021553860519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
