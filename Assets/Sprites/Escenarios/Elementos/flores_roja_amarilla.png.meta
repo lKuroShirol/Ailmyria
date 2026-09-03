@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 3b5ff4f8a10543c4584bb64f1eb91e77
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8643989618246891916
+    second: flores_roja_amarilla_0
+  - first:
+      213: 5424683262581455535
+    second: flores_roja_amarilla_1
+  - first:
+      213: 6568937097524833548
+    second: flores_roja_amarilla_2
+  - first:
+      213: 1802356731801737182
+    second: flores_roja_amarilla_3
+  - first:
+      213: 6074133691710452251
+    second: flores_roja_amarilla_4
+  - first:
+      213: 3528050158478043704
+    second: flores_roja_amarilla_5
+  - first:
+      213: 3752916704842537192
+    second: flores_roja_amarilla_6
+  - first:
+      213: -7506674498387513772
+    second: flores_roja_amarilla_7
+  - first:
+      213: -2723348811564665222
+    second: flores_roja_amarilla_8
+  - first:
+      213: -9186040869391833637
+    second: flores_roja_amarilla_9
+  - first:
+      213: 3478301964302985335
+    second: flores_roja_amarilla_10
+  - first:
+      213: -868469324365494662
+    second: flores_roja_amarilla_11
+  - first:
+      213: -997122340608399989
+    second: flores_roja_amarilla_12
+  - first:
+      213: 5320784200225073968
+    second: flores_roja_amarilla_13
+  - first:
+      213: -760553710589131562
+    second: flores_roja_amarilla_14
+  - first:
+      213: -2854491154020674268
+    second: flores_roja_amarilla_15
+  - first:
+      213: -2679259333629084912
+    second: flores_roja_amarilla_16
+  - first:
+      213: 4327743033151936268
+    second: flores_roja_amarilla_17
+  - first:
+      213: -9003328625910278792
+    second: flores_roja_amarilla_18
+  - first:
+      213: -275732222434419335
+    second: flores_roja_amarilla_19
+  - first:
+      213: -533481849891251361
+    second: flores_roja_amarilla_20
+  - first:
+      213: 8741846664721333215
+    second: flores_roja_amarilla_21
+  - first:
+      213: -3124845413223131495
+    second: flores_roja_amarilla_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 11
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flores_roja_amarilla_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8935cd82ce95f770800000000000000
+      internalID: 8643989618246891916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faabc25afa8584b40800000000000000
+      internalID: 5424683262581455535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d6ad98c7d892b50800000000000000
+      internalID: 6568937097524833548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed79395f5e1430910800000000000000
+      internalID: 1802356731801737182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1232a41968ab4450800000000000000
+      internalID: 6074133691710452251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a28dd3de626f030800000000000000
+      internalID: 3528050158478043704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8d4c7fbd9051430800000000000000
+      internalID: 3752916704842537192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ee027d05fe2d790800000000000000
+      internalID: -7506674498387513772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76b43f4fa8b43ad0800000000000000
+      internalID: -2723348811564665222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5edafbf70a48080800000000000000
+      internalID: -9186040869391833637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778a2db2539654030800000000000000
+      internalID: 3478301964302985335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_11
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a760fd630c392f3f0800000000000000
+      internalID: -868469324365494662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_12
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b852e62a3828922f0800000000000000
+      internalID: -997122340608399989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b2de41a0937d940800000000000000
+      internalID: 5320784200225073968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_14
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4cab70e68f175f0800000000000000
+      internalID: -760553710589131562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_15
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4255a1e4b6fc268d0800000000000000
+      internalID: -2854491154020674268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_16
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b73e5d4db51dad0800000000000000
+      internalID: -2679259333629084912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_17
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07513afb5b3f0c30800000000000000
+      internalID: 4327743033151936268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_18
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87513800150cd0380800000000000000
+      internalID: -9003328625910278792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_19
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ddaac21076c2cf0800000000000000
+      internalID: -275732222434419335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_20
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b1d138511b898f0800000000000000
+      internalID: -533481849891251361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_21
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbf5aba937415970800000000000000
+      internalID: 8741846664721333215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_roja_amarilla_22
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99693de17a152a4d0800000000000000
+      internalID: -3124845413223131495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flores_roja_amarilla_0: 8643989618246891916
+      flores_roja_amarilla_1: 5424683262581455535
+      flores_roja_amarilla_10: 3478301964302985335
+      flores_roja_amarilla_11: -868469324365494662
+      flores_roja_amarilla_12: -997122340608399989
+      flores_roja_amarilla_13: 5320784200225073968
+      flores_roja_amarilla_14: -760553710589131562
+      flores_roja_amarilla_15: -2854491154020674268
+      flores_roja_amarilla_16: -2679259333629084912
+      flores_roja_amarilla_17: 4327743033151936268
+      flores_roja_amarilla_18: -9003328625910278792
+      flores_roja_amarilla_19: -275732222434419335
+      flores_roja_amarilla_2: 6568937097524833548
+      flores_roja_amarilla_20: -533481849891251361
+      flores_roja_amarilla_21: 8741846664721333215
+      flores_roja_amarilla_22: -3124845413223131495
+      flores_roja_amarilla_3: 1802356731801737182
+      flores_roja_amarilla_4: 6074133691710452251
+      flores_roja_amarilla_5: 3528050158478043704
+      flores_roja_amarilla_6: 3752916704842537192
+      flores_roja_amarilla_7: -7506674498387513772
+      flores_roja_amarilla_8: -2723348811564665222
+      flores_roja_amarilla_9: -9186040869391833637
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

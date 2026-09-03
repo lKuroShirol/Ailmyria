@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 09325683cc309e14c93f0a0951d952b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6696939467275497227
+    second: flores_rosa_clara_0
+  - first:
+      213: -8870718030232020886
+    second: flores_rosa_clara_1
+  - first:
+      213: 3981380934414673902
+    second: flores_rosa_clara_2
+  - first:
+      213: 465552547310697550
+    second: flores_rosa_clara_3
+  - first:
+      213: 1850729022125941552
+    second: flores_rosa_clara_4
+  - first:
+      213: -6692442022718072955
+    second: flores_rosa_clara_5
+  - first:
+      213: -7490515056072787859
+    second: flores_rosa_clara_6
+  - first:
+      213: -6727690779266697854
+    second: flores_rosa_clara_7
+  - first:
+      213: -6799247878017434495
+    second: flores_rosa_clara_8
+  - first:
+      213: -1751477289116616601
+    second: flores_rosa_clara_9
+  - first:
+      213: 2681572168299492020
+    second: flores_rosa_clara_10
+  - first:
+      213: -5671181176243022962
+    second: flores_rosa_clara_11
+  - first:
+      213: 3687243996416439288
+    second: flores_rosa_clara_12
+  - first:
+      213: 7487931120214074380
+    second: flores_rosa_clara_13
+  - first:
+      213: 9079998564585880920
+    second: flores_rosa_clara_14
+  - first:
+      213: -8736695713752689444
+    second: flores_rosa_clara_15
+  - first:
+      213: -832720244311798387
+    second: flores_rosa_clara_16
+  - first:
+      213: 7808309317953598348
+    second: flores_rosa_clara_17
+  - first:
+      213: -5604491140240495453
+    second: flores_rosa_clara_18
+  - first:
+      213: 8149256657265930497
+    second: flores_rosa_clara_19
+  - first:
+      213: -7281166064199631979
+    second: flores_rosa_clara_20
+  - first:
+      213: 6063980582348023936
+    second: flores_rosa_clara_21
+  - first:
+      213: 8936120372246549268
+    second: flores_rosa_clara_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 11
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flores_rosa_clara_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f010c25901bf03a0800000000000000
+      internalID: -6696939467275497227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a681e5953f0e4e480800000000000000
+      internalID: -8870718030232020886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7ac479dd4b04730800000000000000
+      internalID: 3981380934414673902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c7bbe3399f57600800000000000000
+      internalID: 465552547310697550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033a2537d3c1fa910800000000000000
+      internalID: 1850729022125941552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5871efb307baf13a0800000000000000
+      internalID: -6692442022718072955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68f0123e385c0890800000000000000
+      internalID: -7490515056072787859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285332f81e072a2a0800000000000000
+      internalID: -6727690779266697854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c31f2341834a1a0800000000000000
+      internalID: -6799247878017434495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7683a0e6fa081b7e0800000000000000
+      internalID: -1751477289116616601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2b013fdabd63520800000000000000
+      internalID: 2681572168299492020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_11
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83172574caeb41b0800000000000000
+      internalID: -5671181176243022962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_12
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3f79ef0e8bb2330800000000000000
+      internalID: 3687243996416439288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04e3fa5ea97ae760800000000000000
+      internalID: 7487931120214074380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_14
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85db23b2692a20e70800000000000000
+      internalID: 9079998564585880920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_15
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4d71f898501c680800000000000000
+      internalID: -8736695713752689444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_16
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8dc48889559174f0800000000000000
+      internalID: -832720244311798387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_17
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c833ff854ffac5c60800000000000000
+      internalID: 7808309317953598348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_18
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac24277009d832b0800000000000000
+      internalID: -5604491140240495453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_19
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101b2dfc0c9f71170800000000000000
+      internalID: 8149256657265930497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_20
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b70c8ba0a14fa90800000000000000
+      internalID: -7281166064199631979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_21
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08868b71636972450800000000000000
+      internalID: 6063980582348023936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores_rosa_clara_22
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 10
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41313e9022a730c70800000000000000
+      internalID: 8936120372246549268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flores_rosa_clara_0: -6696939467275497227
+      flores_rosa_clara_1: -8870718030232020886
+      flores_rosa_clara_10: 2681572168299492020
+      flores_rosa_clara_11: -5671181176243022962
+      flores_rosa_clara_12: 3687243996416439288
+      flores_rosa_clara_13: 7487931120214074380
+      flores_rosa_clara_14: 9079998564585880920
+      flores_rosa_clara_15: -8736695713752689444
+      flores_rosa_clara_16: -832720244311798387
+      flores_rosa_clara_17: 7808309317953598348
+      flores_rosa_clara_18: -5604491140240495453
+      flores_rosa_clara_19: 8149256657265930497
+      flores_rosa_clara_2: 3981380934414673902
+      flores_rosa_clara_20: -7281166064199631979
+      flores_rosa_clara_21: 6063980582348023936
+      flores_rosa_clara_22: 8936120372246549268
+      flores_rosa_clara_3: 465552547310697550
+      flores_rosa_clara_4: 1850729022125941552
+      flores_rosa_clara_5: -6692442022718072955
+      flores_rosa_clara_6: -7490515056072787859
+      flores_rosa_clara_7: -6727690779266697854
+      flores_rosa_clara_8: -6799247878017434495
+      flores_rosa_clara_9: -1751477289116616601
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
