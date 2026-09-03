@@ -24,6 +24,17 @@ public class FollowNPC : MonoBehaviour
     private Animator animator;
     private Vector2 ultimaDireccion = Vector2.down;
 
+
+    private void Awake()
+    {
+        GameObject objetoEncontrado = GameObject.Find("BrujitaO");
+
+        if (objetoEncontrado != null)
+        {
+            jugador = objetoEncontrado.transform;
+            Debug.Log("¡Transform asignado con éxito a: " + objetoEncontrado.name + "!");
+        }
+    }
     void Start()
     {
         puntoMovimiento = transform.position;
