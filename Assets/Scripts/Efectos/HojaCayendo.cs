@@ -21,7 +21,7 @@ public class HojaCayendo : MonoBehaviour
     public float giroMaximo = 150f;
     private float velocidadGiro;
 
-    [Tooltip("Si el giro también debe oscilar (opcional, para más realismo).")]
+    [Tooltip("Si el giro también debe oscilar")]
     public bool oscilarGiro = true;
 
     [Header("Limpieza")]
@@ -34,16 +34,12 @@ public class HojaCayendo : MonoBehaviour
     {
         tiempoInicio = Time.time;
 
-        // 1. Asignar valores aleatorios dentro de los rangos definidos para ESTA hoja en particular
         velocidadCaida = UnityEngine.Random.Range(velocidadMinima, velocidadMaxima);
         amplitudZigZag = UnityEngine.Random.Range(amplitudMinima, amplitudMaxima);
         frecuenciaZigZag = UnityEngine.Random.Range(frecuenciaMinima, frecuenciaMaxima);
         velocidadGiro = UnityEngine.Random.Range(giroMinimo, giroMaximo);
 
-        // 2. Rotación inicial aleatoria
         transform.rotation = Quaternion.Euler(0f, 0f, UnityEngine.Random.Range(0f, 360f));
-
-        // 3. Programar su destrucción automática para liberar memoria
         Destroy(gameObject, tiempoDeVida);
     }
 
