@@ -74,12 +74,20 @@ public class NPCInteraccionSecuencial : MonoBehaviour
     private bool dialogoAbierto = false;
     public bool TerminoLaInteraccion;
 
-
+    [Header("Follow del NPC")]
+    public FollowNPC followNPC;
+    public bool QuieresQueSiga;
+    public string NPCtag;
     void Awake()
     {
         grimorioUI = FindAnyObjectByType<GrimorioUI>();
         GameObject objetoEncontrado = GameObject.Find("BrujitaO");
+        if (QuieresQueSiga) followNPC = GameObject.FindGameObjectWithTag(NPCtag).GetComponent<FollowNPC>();
 
+
+
+
+        if (followNPC == null) print("No se encontró");
         if (objetoEncontrado != null)
         {
             brujita = objetoEncontrado.transform;
@@ -127,6 +135,13 @@ public class NPCInteraccionSecuencial : MonoBehaviour
             gameObject.SetActive(false);
             grimorioUI.isTalk = true;
         }
+
+        if (TerminoLaInteraccion&&QuieresQueSiga)
+        {
+            followNPC.estaSiguiendo = true;
+        }
+            
+
     }
 
     void ManejarDialogo()
@@ -245,7 +260,7 @@ public class NPCInteraccionSecuencial : MonoBehaviour
         TerminoLaInteraccion = true;
         indiceConversacion = 0;
         grimorioUI.isTalk = true;
-
+        //if (QuieresQueSiga) followNPC.estaSiguiendo = true;
         if (rutinaEscritura != null)
         {
             StopCoroutine(rutinaEscritura);

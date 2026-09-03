@@ -109,6 +109,7 @@ public class Pause : MonoBehaviour
             }
 
             panelFade.alpha = 1f;
+            
         }
 
         SceneManager.LoadScene(nombreEscena);
