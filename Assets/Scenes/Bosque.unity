@@ -6452,7 +6452,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7806915100884617120, guid: 1bc82a4fba0e1744f889d73785fa0593, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6530,18 +6530,18 @@ MonoBehaviour:
   ActualDialogoNPC: {fileID: 0}
   conversacion:
   - hablaElNPC: 1
-    mensaje: Un mal dia te amarga tu rutina. Pero olvide todo por lo que debo alegrarme...
+    mensaje: Un mal dia te amarga tu rutina. Pero olvide todo por lo que puedo alegrarme...
     usarReaccion1: 0
     usarReaccion2: 1
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
-    mensaje: "\xBFQue cosa?"
-    usarReaccion1: 0
+    mensaje: "\xBFC\xF3mo qu\xE9?"
+    usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
-    usarReaccion4: 1
-  - hablaElNPC: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
     mensaje: Vivir de lo que me gusta
     usarReaccion1: 0
     usarReaccion2: 1
@@ -16713,7 +16713,7 @@ MonoBehaviour:
   objeto1: {fileID: 1535828458}
   contenedor2: {fileID: 0}
   DialogoNPC1: {fileID: 1475521271}
-  OldDialogoNPC: {fileID: 635253335}
+  OldDialogoNPC: {fileID: 1695770856}
   contenedor4: {fileID: 0}
   UIAviso: {fileID: 386928197}
   tiempoEnPantalla: 2
@@ -18293,7 +18293,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7806915100884617120, guid: 1bc82a4fba0e1744f889d73785fa0593, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -18784,6 +18784,56 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1307114457}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1218027681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1218027683}
+  - component: {fileID: 1218027682}
+  m_Layer: 0
+  m_Name: SpawnHojitas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1218027682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218027681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7da15aaa9cb067e4f9b0806d1db8d3c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnHojitas
+  listaPrefabsHojas:
+  - {fileID: 6823494448155451423, guid: 59ca51fe28081c34fa606b54b7689098, type: 3}
+  - {fileID: 5860330259741149094, guid: 63249a7ce93abdd42b54b49b4ecab242, type: 3}
+  frecuenciaSpawn: 1
+  variacionTiempo: 0.8
+  anchoAreaSpawn: 22.8
+--- !u!4 &1218027683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218027681}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.22, y: 9.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1241531410
@@ -27530,7 +27580,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7806915100884617120, guid: 1bc82a4fba0e1744f889d73785fa0593, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -27926,165 +27976,18 @@ MonoBehaviour:
   NewDialogoNPC1: {fileID: 0}
   ActualDialogoNPC: {fileID: 0}
   conversacion:
-  - hablaElNPC: 0
-    mensaje: 'Hola, disculpe que le moleste '
-    usarReaccion1: 1
-    usarReaccion2: 0
-    usarReaccion3: 0
-    usarReaccion4: 0
   - hablaElNPC: 1
-    mensaje: . . . (Notoriamente enojado)
-    usarReaccion1: 1
-    usarReaccion2: 0
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 0
-    mensaje: "\xBFSe\xF1or?... "
+    mensaje: Oye disculpa por el mal rato...
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 1
     usarReaccion4: 0
   - hablaElNPC: 1
-    mensaje: "Oh. \xBFQu\xE9 sucede?\r\n"
-    usarReaccion1: 0
-    usarReaccion2: 1
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 0
-    mensaje: '(Sorprendida) Que cambio de humor '
-    usarReaccion1: 0
-    usarReaccion2: 0
-    usarReaccion3: 0
-    usarReaccion4: 1
-  - hablaElNPC: 1
-    mensaje: "Lo siento, no fue mi intenci\xF3n responder as\xED. Estoy un poquiiito
-      de mal humor\u2026 \r\n"
-    usarReaccion1: 1
-    usarReaccion2: 0
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 1
-    mensaje: "Por cierto, no le hab\xEDa visto antes por aqu\xED, imagino que est\xE1s
-      de visita, \xBFVerdad?\r\n"
+    mensaje: Solo estoy un poco enojado
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 1
     usarReaccion4: 0
-  - hablaElNPC: 0
-    mensaje: "Si\u2026 Algo as\xED\r\n"
-    usarReaccion1: 1
-    usarReaccion2: 0
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 0
-    mensaje: "La verdad es que he perdido algunas cosas que son muy importantes para
-      m\xED\r\n\r\n"
-    usarReaccion1: 0
-    usarReaccion2: 0
-    usarReaccion3: 1
-    usarReaccion4: 0
-  - hablaElNPC: 0
-    mensaje: "Pero...D\xE9jeme presentarme: Mii nombre es Almiria, \xBFCu\xE1l es
-      el suyo?"
-    usarReaccion1: 0
-    usarReaccion2: 1
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 1
-    mensaje: "\xA1Oh, qu\xE9 modales los m\xEDos!, si mam\xE1 me viera me dir\xEDa
-      un buen par de cosas\r\n\r\n"
-    usarReaccion1: 0
-    usarReaccion2: 0
-    usarReaccion3: 1
-    usarReaccion4: 0
-  - hablaElNPC: 1
-    mensaje: 'Mi nombre es Joan, es un gusto conocerte Almiria '
-    usarReaccion1: 0
-    usarReaccion2: 1
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 0
-    mensaje: "El gusto es m\xEDo, don Joan, d\xEDgame, \xBFa que se debe su mal humor? "
-    usarReaccion1: 0
-    usarReaccion2: 1
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 1
-    mensaje: 'Pasa que ayer por la tarde, cuando estaba dando un paseo por el bosque. '
-    usarReaccion1: 1
-    usarReaccion2: 0
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 1
-    mensaje: "Vino una fuerte brisa la cu\xE1l se llev\xF3 volando mi caja de f\xF3sforos
-      a alg\xFAn lado"
-    usarReaccion1: 0
-    usarReaccion2: 0
-    usarReaccion3: 1
-    usarReaccion4: 0
-  - hablaElNPC: 1
-    mensaje: "Intent\xE9 buscarla pero...  "
-    usarReaccion1: 0
-    usarReaccion2: 0
-    usarReaccion3: 1
-    usarReaccion4: 0
-  - hablaElNPC: 1
-    mensaje: No la encuentro...
-    usarReaccion1: 1
-    usarReaccion2: 0
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 1
-    mensaje: Sin mi caja no puedo prender mi horno de pan y-
-    usarReaccion1: 1
-    usarReaccion2: 0
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 0
-    mensaje: Sisisi. Fosforos, yo buscar
-    usarReaccion1: 0
-    usarReaccion2: 1
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 0
-    mensaje: "\xA1Yo ayudarte!"
-    usarReaccion1: 0
-    usarReaccion2: 1
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 0
-    mensaje: "(Otra vez me ofrec\xED a ayudar impulsivamente, \xBFPor qu\xE9  ser\xE1
-      que no puedo evitarlo?)\r\n"
-    usarReaccion1: 0
-    usarReaccion2: 0
-    usarReaccion3: 0
-    usarReaccion4: 1
-  - hablaElNPC: 1
-    mensaje: "Excelente. Oye creo que ayer encontr\xE9 algo brillante y lo dej\xE9
-      en alg\xFAn lado "
-    usarReaccion1: 0
-    usarReaccion2: 1
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 1
-    mensaje: "Mientras me ayudas, pensar\xE9 en d\xF3nde fue que lo dej\xE9 ..."
-    usarReaccion1: 0
-    usarReaccion2: 0
-    usarReaccion3: 1
-    usarReaccion4: 0
-  - hablaElNPC: 0
-    mensaje: "\xA1Muchas gracias!, yo tambi\xE9n me pondr\xE9 a buscar, volver\xE9
-      tan pronto como me ruga la panza"
-    usarReaccion1: 0
-    usarReaccion2: 0
-    usarReaccion3: 0
-    usarReaccion4: 1
-  - hablaElNPC: 1
-    mensaje: " Gracias a... (\xBFQuerr\xE1 pan gratis?)"
-    usarReaccion1: 0
-    usarReaccion2: 0
-    usarReaccion3: 1
-    usarReaccion4: 1
   velocidadEscritura: 0.01
   teclaInteraccion: 19
   CondicionDialogo: 0
@@ -33418,3 +33321,4 @@ SceneRoots:
   - {fileID: 448222043}
   - {fileID: 433467752}
   - {fileID: 1825543332}
+  - {fileID: 1218027683}
