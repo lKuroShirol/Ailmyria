@@ -3822,6 +3822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Objects_destroyd
   id: 0
+  rockEvent: {fileID: 0}
 --- !u!1 &195237034
 GameObject:
   m_ObjectHideFlags: 0
@@ -30639,6 +30640,10 @@ PrefabInstance:
       propertyPath: reaccionBrujita4
       value: 
       objectReference: {fileID: 6457375325611462225}
+    - target: {fileID: 383494488696338368, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: soltarObjetoAlTerminar
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 383494488696338368, guid: 505968fd94a20394986372c3d787c95b, type: 3}
       propertyPath: conversacion.Array.data[4].mensaje
       value: '(Joan te entrega un fragmento muy brillante) '
