@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,10 +75,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,12 +143,12 @@ TextureImporter:
       name: Hechizo_brisa_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 3
-        width: 32
-        height: 8
+        x: 22
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: Hechizo_brisa_1
       rect:
         serializedVersion: 2
-        x: 69
-        y: 7
-        width: 9
-        height: 6
+        x: 44
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: Hechizo_brisa_2
       rect:
         serializedVersion: 2
-        x: 70
-        y: 3
-        width: 11
-        height: 6
+        x: 66
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: Hechizo_brisa_3
       rect:
         serializedVersion: 2
-        x: 91
-        y: 1
-        width: 15
-        height: 13
+        x: 88
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: Hechizo_brisa_4
       rect:
         serializedVersion: 2
-        x: 114
-        y: 8
-        width: 8
-        height: 7
+        x: 110
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,12 +253,12 @@ TextureImporter:
       name: Hechizo_brisa_5
       rect:
         serializedVersion: 2
-        x: 118
-        y: 1
-        width: 11
-        height: 12
+        x: 132
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,12 +275,12 @@ TextureImporter:
       name: Hechizo_brisa_6
       rect:
         serializedVersion: 2
-        x: 136
-        y: 7
-        width: 11
-        height: 8
+        x: 154
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: Hechizo_brisa_7
       rect:
         serializedVersion: 2
-        x: 144
-        y: 6
-        width: 9
-        height: 7
+        x: 176
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: Hechizo_brisa_8
       rect:
         serializedVersion: 2
-        x: 160
-        y: 8
-        width: 9
-        height: 6
+        x: 198
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -337,33 +337,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Hechizo_brisa_9
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 6
-        width: 55
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe302f2ee0fd2e0d0800000000000000
-      internalID: -3394905914053884945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 50bdd4dd3e711fb4c80ee0ede5fe8c68
     internalID: 0
     vertices: []
     indices: 
@@ -371,7 +349,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":20.0,"y":1.0},"gridSpriteSize":{"x":22.0,"y":25.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Hechizo_brisa_0: -2902750959823845800
       Hechizo_brisa_1: -3146032354909306852
@@ -382,7 +362,6 @@ TextureImporter:
       Hechizo_brisa_6: -7068873639833157128
       Hechizo_brisa_7: 93327744565191762
       Hechizo_brisa_8: 3179357232074610460
-      Hechizo_brisa_9: -3394905914053884945
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
