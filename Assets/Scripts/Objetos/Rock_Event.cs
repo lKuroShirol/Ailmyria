@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEditor;
 using UnityEngine;
-//using UnityEngine.InputSystem;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class Rock_Event : MonoBehaviour
@@ -70,16 +70,16 @@ public class Rock_Event : MonoBehaviour
         }
     }
 
-    //private void Update()
-    //{
-    //    if (Keyboard.current.rKey.wasPressedThisFrame)
-    //    {
-    //        if (objetoDestruible != null)
-    //        {
-    //            objetoDestruible.DestruirObjeto();
-    //        }
-    //    }
-    //}
+    private void Update()
+    {
+        if (Keyboard.current.rKey.wasPressedThisFrame)
+        {
+            if (objetoDestruible != null)
+            {
+                objetoDestruible.DestruirObjeto();
+            }
+        }
+    }
 
     private void ComprobarEstado()
     {
