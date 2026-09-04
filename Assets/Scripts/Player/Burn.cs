@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class Burn : MonoBehaviour
 {
@@ -11,26 +12,43 @@ public class Burn : MonoBehaviour
     private bool jugadorDentro = false;
     private bool isBurning = false;
 
+    [SerializeField] private GameObject tecla;
+
     private void Awake()
     {
         chispa = FindAnyObjectByType<Chispa>();
         objeto = GetComponentInParent<Objects_destroyd>();
+
+        tecla.SetActive(false);
     }
 
     private void Update()
     {
         if (isBurning)
+        {
+            tecla.SetActive(false);
             return;
+        }
 
         if (!jugadorDentro)
+        {
+            tecla.SetActive(false);
             return;
+        }
 
+        // La tecla solo aparece con la Chispa encendida
         if (!chispa.isCasting)
+        {
+            tecla.SetActive(false);
             return;
+        }
+
+        tecla.SetActive(true);
 
         if (Keyboard.current[teclaQuemar].wasPressedThisFrame)
         {
             isBurning = true;
+            tecla.SetActive(false);
 
             if (objeto != null)
             {
@@ -54,6 +72,8 @@ public class Burn : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             jugadorDentro = false;
+            tecla.SetActive(false);
         }
     }
 }
+

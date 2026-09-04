@@ -35,6 +35,8 @@ public class Hechizos_Manager : MonoBehaviour
             vendaval = GetComponent<Vendaval>();
         }
     }
+
+    public bool PuedeUsarHechizos() { return varitaDesbloqueada; }
     public void ActivarVarita()
     {
       
@@ -86,4 +88,5 @@ public class Hechizos_Manager : MonoBehaviour
     {
         vendavalDesbloqueada = false;
     }
+
 }

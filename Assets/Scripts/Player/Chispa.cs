@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class Chispa : MonoBehaviour
 {
@@ -37,9 +38,26 @@ public class Chispa : MonoBehaviour
 
         isCasting = false;
     }
+    private void OnEnable()
+    {
+        SceneManager.sceneUnloaded += AlSalirDeEscena;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneUnloaded -= AlSalirDeEscena;
+    }
+
+    private void AlSalirDeEscena(Scene escena)
+    {
+        ApagarChispa();
+    }
 
     private void Update()
     {
+        if (!hechizosManager.PuedeUsarHechizos())
+            return;
+
         if (!hechizosManager.chispaDesbloqueada)
             return;
 

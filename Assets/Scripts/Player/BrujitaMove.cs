@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEditor.UIElements.ToolbarMenu;
 
 public class BrujitaMove : MonoBehaviour
 {
@@ -23,6 +24,13 @@ public class BrujitaMove : MonoBehaviour
     private Animator animator;
     private Vector2 ultimaDireccion = Vector2.down;
 
+    [Header("Animación Varita")]
+    [SerializeField] private RuntimeAnimatorController animatorSinVarita;
+    [SerializeField] private RuntimeAnimatorController animatorConVarita;
+
+    private Hechizos_Manager hechizosManager;
+    private bool animatorVaritaAplicado = false;
+
     private BrujitaFlight vuelo;
 
     private Vector2 ultimaDireccionHorizontal = Vector2.right;
@@ -34,10 +42,15 @@ public class BrujitaMove : MonoBehaviour
 
         animator = GetComponent<Animator>();
         vuelo = GetComponent<BrujitaFlight>();
+        hechizosManager = GetComponent<Hechizos_Manager>();
+
+        ActualizarAnimatorVarita();
     }
 
     void Update()
     {
+        ActualizarAnimatorVarita();
+
         if (libroAbierto)
         {
             ActualizarAnimaciones(ultimaDireccion, false);
@@ -98,7 +111,6 @@ public class BrujitaMove : MonoBehaviour
             {
                 puedeMoverse = vuelo.PuedeMoverseVolando(puntoEvaluar);
             }
-
             else
             {
                 Collider2D[] collidersDetectados =
@@ -144,10 +156,12 @@ public class BrujitaMove : MonoBehaviour
                 IsMoving = true;
 
                 ultimaDireccion = direction;
+
                 if (direction.x != 0)
                 {
                     ultimaDireccionHorizontal = new Vector2(direction.x, 0);
                 }
+
                 ActualizarAnimaciones(direction, true);
             }
             else
@@ -158,6 +172,23 @@ public class BrujitaMove : MonoBehaviour
         else
         {
             ActualizarAnimaciones(ultimaDireccion, false);
+        }
+    }
+
+    private void ActualizarAnimatorVarita()
+    {
+        if (hechizosManager == null || animator == null)
+            return;
+
+        if (hechizosManager.varitaDesbloqueada && !animatorVaritaAplicado)
+        {
+            animator.runtimeAnimatorController = animatorConVarita;
+            animatorVaritaAplicado = true;
+        }
+        else if (!hechizosManager.varitaDesbloqueada && animatorVaritaAplicado)
+        {
+            animator.runtimeAnimatorController = animatorSinVarita;
+            animatorVaritaAplicado = false;
         }
     }
 
@@ -187,6 +218,7 @@ public class BrujitaMove : MonoBehaviour
             : (Vector2)transform.position;
 
         Gizmos.color = Color.yellow;
+
         Gizmos.DrawWireSphere(
             centroGizmo + offsetPuntoMovimiento,
             RadioCirculo
