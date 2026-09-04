@@ -1,37 +1,40 @@
 fileFormatVersion: 2
-guid: ba2cc67d980301a4eb71b6970ba92f21
+guid: 00a02221d4ffec7468df32aca940922e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2902750959823845800
-    second: Hechizo_brisa_0
+      213: -6633918419822204475
+    second: Almiria_varita_guardandola_0
   - first:
-      213: -3146032354909306852
-    second: Hechizo_brisa_1
+      213: 8514859640731626103
+    second: Almiria_varita_guardandola_1
   - first:
-      213: 8785831873887781400
-    second: Hechizo_brisa_2
+      213: 9029952899715286625
+    second: Almiria_varita_guardandola_2
   - first:
-      213: 2280693350983580627
-    second: Hechizo_brisa_3
+      213: 4076796034068956708
+    second: Almiria_varita_guardandola_3
   - first:
-      213: -8328312905727771170
-    second: Hechizo_brisa_4
+      213: 8861390927885675446
+    second: Almiria_varita_guardandola_4
   - first:
-      213: 1224088937043560777
-    second: Hechizo_brisa_5
+      213: 5606304068686149131
+    second: Almiria_varita_guardandola_5
   - first:
-      213: -7068873639833157128
-    second: Hechizo_brisa_6
+      213: -9094886813925687445
+    second: Almiria_varita_guardandola_6
   - first:
-      213: 93327744565191762
-    second: Hechizo_brisa_7
+      213: 6717965925015167545
+    second: Almiria_varita_guardandola_7
   - first:
-      213: 3179357232074610460
-    second: Hechizo_brisa_8
+      213: -4690138735396811430
+    second: Almiria_varita_guardandola_8
   - first:
-      213: -3394905914053884945
-    second: Hechizo_brisa_9
+      213: 8952616890835396348
+    second: Almiria_varita_guardandola_9
+  - first:
+      213: 6708449584079719279
+    second: Almiria_varita_guardandola_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -64,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,10 +78,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,199 +143,243 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hechizo_brisa_0
+      name: Almiria_varita_guardandola_0
       rect:
         serializedVersion: 2
-        x: 22
+        x: 2
         y: 0
-        width: 22
-        height: 25
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8568648a16b57b7d0800000000000000
-      internalID: -2902750959823845800
+      spriteID: 5c9a39d58569fe3a0800000000000000
+      internalID: -6633918419822204475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_brisa_1
+      name: Almiria_varita_guardandola_1
       rect:
         serializedVersion: 2
-        x: 44
+        x: 24
         y: 0
-        width: 22
-        height: 25
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c10ceb9dd3c0754d0800000000000000
-      internalID: -3146032354909306852
+      spriteID: 77a6e16cabbda2670800000000000000
+      internalID: 8514859640731626103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_brisa_2
+      name: Almiria_varita_guardandola_2
       rect:
         serializedVersion: 2
-        x: 66
+        x: 46
         y: 0
-        width: 22
-        height: 25
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 812c26b3a8b8de970800000000000000
-      internalID: 8785831873887781400
+      spriteID: 166c90ec156d05d70800000000000000
+      internalID: 9029952899715286625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_brisa_3
+      name: Almiria_varita_guardandola_3
       rect:
         serializedVersion: 2
-        x: 88
+        x: 68
         y: 0
-        width: 22
-        height: 25
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3dbb8f2e486a6af10800000000000000
-      internalID: 2280693350983580627
+      spriteID: 426c668a460b39830800000000000000
+      internalID: 4076796034068956708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_brisa_4
+      name: Almiria_varita_guardandola_4
       rect:
         serializedVersion: 2
-        x: 110
+        x: 90
         y: 0
-        width: 22
-        height: 25
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edd7bcb9983eb6c80800000000000000
-      internalID: -8328312905727771170
+      spriteID: 6bbae78691cf9fa70800000000000000
+      internalID: 8861390927885675446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_brisa_5
+      name: Almiria_varita_guardandola_5
       rect:
         serializedVersion: 2
-        x: 132
+        x: 112
         y: 0
-        width: 22
-        height: 25
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94987f91766dcf010800000000000000
-      internalID: 1224088937043560777
+      spriteID: b067dd4d8d79dcd40800000000000000
+      internalID: 5606304068686149131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_brisa_6
+      name: Almiria_varita_guardandola_6
       rect:
         serializedVersion: 2
-        x: 154
+        x: 134
         y: 0
-        width: 22
-        height: 25
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f14f9780e056ed90800000000000000
-      internalID: -7068873639833157128
+      spriteID: b6f339721a878c180800000000000000
+      internalID: -9094886813925687445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_brisa_7
+      name: Almiria_varita_guardandola_7
       rect:
         serializedVersion: 2
-        x: 176
+        x: 156
         y: 0
-        width: 22
-        height: 25
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2542f76d6119b4100800000000000000
-      internalID: 93327744565191762
+      spriteID: 93225bd5a620b3d50800000000000000
+      internalID: 6717965925015167545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_brisa_8
+      name: Almiria_varita_guardandola_8
       rect:
         serializedVersion: 2
-        x: 198
+        x: 178
         y: 0
-        width: 22
-        height: 25
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1750efbe885f1c20800000000000000
-      internalID: 3179357232074610460
+      spriteID: a5d8f596ba749eeb0800000000000000
+      internalID: -4690138735396811430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_guardandola_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6e76411a51e3c70800000000000000
+      internalID: 8952616890835396348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_guardandola_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b40b49a53391d50800000000000000
+      internalID: 6708449584079719279
       vertices: []
       indices: 
       edges: []
@@ -341,7 +388,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 50bdd4dd3e711fb4c80ee0ede5fe8c68
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -349,19 +396,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":20.0,"y":1.0},"gridSpriteSize":{"x":22.0,"y":25.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Hechizo_brisa_0: -2902750959823845800
-      Hechizo_brisa_1: -3146032354909306852
-      Hechizo_brisa_2: 8785831873887781400
-      Hechizo_brisa_3: 2280693350983580627
-      Hechizo_brisa_4: -8328312905727771170
-      Hechizo_brisa_5: 1224088937043560777
-      Hechizo_brisa_6: -7068873639833157128
-      Hechizo_brisa_7: 93327744565191762
-      Hechizo_brisa_8: 3179357232074610460
+      Almiria_varita_guardandola_0: -6633918419822204475
+      Almiria_varita_guardandola_1: 8514859640731626103
+      Almiria_varita_guardandola_10: 6708449584079719279
+      Almiria_varita_guardandola_2: 9029952899715286625
+      Almiria_varita_guardandola_3: 4076796034068956708
+      Almiria_varita_guardandola_4: 8861390927885675446
+      Almiria_varita_guardandola_5: 5606304068686149131
+      Almiria_varita_guardandola_6: -9094886813925687445
+      Almiria_varita_guardandola_7: 6717965925015167545
+      Almiria_varita_guardandola_8: -4690138735396811430
+      Almiria_varita_guardandola_9: 8952616890835396348
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

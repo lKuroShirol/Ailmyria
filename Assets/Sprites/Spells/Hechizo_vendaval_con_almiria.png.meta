@@ -130,7 +130,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -141,10 +141,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -209,12 +209,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 22
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,12 +253,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_2
       rect:
         serializedVersion: 2
-        x: 46
+        x: 44
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,12 +275,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_3
       rect:
         serializedVersion: 2
-        x: 68
+        x: 66
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_4
       rect:
         serializedVersion: 2
-        x: 90
+        x: 88
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_5
       rect:
         serializedVersion: 2
-        x: 112
+        x: 110
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,12 +341,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_6
       rect:
         serializedVersion: 2
-        x: 134
+        x: 132
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,12 +363,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_7
       rect:
         serializedVersion: 2
-        x: 156
+        x: 154
         y: 0
-        width: 20
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -385,12 +385,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_8
       rect:
         serializedVersion: 2
-        x: 178
+        x: 176
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -407,12 +407,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_9
       rect:
         serializedVersion: 2
-        x: 200
+        x: 198
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -429,12 +429,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_10
       rect:
         serializedVersion: 2
-        x: 222
+        x: 220
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,12 +451,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_11
       rect:
         serializedVersion: 2
-        x: 244
+        x: 242
         y: 0
-        width: 18
-        height: 19
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -473,12 +473,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_12
       rect:
         serializedVersion: 2
-        x: 266
+        x: 264
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -495,12 +495,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_13
       rect:
         serializedVersion: 2
-        x: 288
+        x: 286
         y: 0
-        width: 18
-        height: 19
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -517,12 +517,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_14
       rect:
         serializedVersion: 2
-        x: 309
+        x: 308
         y: 0
-        width: 19
-        height: 19
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -539,12 +539,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_15
       rect:
         serializedVersion: 2
-        x: 331
+        x: 330
         y: 0
-        width: 19
-        height: 19
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -563,10 +563,10 @@ TextureImporter:
         serializedVersion: 2
         x: 352
         y: 0
-        width: 20
-        height: 19
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -585,10 +585,10 @@ TextureImporter:
         serializedVersion: 2
         x: 374
         y: 0
-        width: 20
-        height: 19
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -605,12 +605,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_18
       rect:
         serializedVersion: 2
-        x: 397
+        x: 396
         y: 0
-        width: 19
-        height: 19
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -627,12 +627,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_19
       rect:
         serializedVersion: 2
-        x: 420
+        x: 418
         y: 0
-        width: 18
-        height: 19
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -649,12 +649,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_20
       rect:
         serializedVersion: 2
-        x: 442
+        x: 440
         y: 0
-        width: 18
-        height: 21
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -671,12 +671,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_21
       rect:
         serializedVersion: 2
-        x: 464
+        x: 462
         y: 0
-        width: 18
-        height: 22
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -693,12 +693,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_22
       rect:
         serializedVersion: 2
-        x: 486
+        x: 484
         y: 0
-        width: 18
-        height: 22
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -715,12 +715,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_23
       rect:
         serializedVersion: 2
-        x: 508
+        x: 506
         y: 0
-        width: 18
-        height: 24
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -737,12 +737,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_24
       rect:
         serializedVersion: 2
-        x: 530
+        x: 528
         y: 0
-        width: 18
-        height: 24
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -759,12 +759,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_25
       rect:
         serializedVersion: 2
-        x: 552
+        x: 550
         y: 0
-        width: 18
+        width: 22
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -781,12 +781,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_26
       rect:
         serializedVersion: 2
-        x: 574
+        x: 572
         y: 0
-        width: 18
+        width: 22
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -803,12 +803,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_27
       rect:
         serializedVersion: 2
-        x: 596
+        x: 594
         y: 0
-        width: 18
+        width: 22
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -825,12 +825,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_28
       rect:
         serializedVersion: 2
-        x: 618
+        x: 616
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -847,12 +847,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_29
       rect:
         serializedVersion: 2
-        x: 640
+        x: 638
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -869,12 +869,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_30
       rect:
         serializedVersion: 2
-        x: 662
+        x: 660
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -891,12 +891,12 @@ TextureImporter:
       name: Hechizo_vendaval_con_almiria_31
       rect:
         serializedVersion: 2
-        x: 684
+        x: 682
         y: 0
-        width: 18
-        height: 18
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -913,7 +913,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f82ef2bfca1f0284ba54ed709a402ca3
     internalID: 0
     vertices: []
     indices: 
@@ -921,7 +921,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":20.0,"y":1.0},"gridSpriteSize":{"x":22.0,"y":25.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Hechizo_vendaval_con_almiria_0: -7058724415730985594
       Hechizo_vendaval_con_almiria_1: 1559180426268468751

@@ -18,6 +18,13 @@ public class Chispa : MonoBehaviour
 
     private Coroutine coroutineChispa;
 
+    [Header("Animaciones")]
+    [SerializeField] private RuntimeAnimatorController animatorNormal;
+    [SerializeField] private RuntimeAnimatorController animatorMejorado;
+
+    private Animator animator;
+    private bool animatorMejoradoAplicado = false;
+
     private void Awake()
     {
         posicionInicial = chispaObject.transform.localPosition;
@@ -26,6 +33,8 @@ public class Chispa : MonoBehaviour
 
         hechizosManager = GetComponent<Hechizos_Manager>();
 
+        animator = chispaObject.GetComponent<Animator>();
+
         isCasting = false;
     }
 
@@ -33,6 +42,13 @@ public class Chispa : MonoBehaviour
     {
         if (!hechizosManager.chispaDesbloqueada)
             return;
+
+        // Cambiar al Animator mejorado cuando se desbloquee el anillo
+        if (hechizosManager.anilloDesbloqueado && !animatorMejoradoAplicado)
+        {
+            animator.runtimeAnimatorController = animatorMejorado;
+            animatorMejoradoAplicado = true;
+        }
 
         if (Keyboard.current[TeclaChispa].wasPressedThisFrame)
         {

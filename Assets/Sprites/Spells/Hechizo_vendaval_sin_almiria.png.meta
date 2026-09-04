@@ -61,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,10 +72,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,12 +140,12 @@ TextureImporter:
       name: Hechizo_vendaval_sin_almiria_0
       rect:
         serializedVersion: 2
-        x: 36
+        x: 22
         y: 0
-        width: 223
-        height: 19
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: Hechizo_vendaval_sin_almiria_1
       rect:
         serializedVersion: 2
-        x: 266
-        y: 10
-        width: 14
-        height: 6
+        x: 44
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: Hechizo_vendaval_sin_almiria_2
       rect:
         serializedVersion: 2
-        x: 288
-        y: 5
-        width: 40
-        height: 14
+        x: 66
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,12 +206,12 @@ TextureImporter:
       name: Hechizo_vendaval_sin_almiria_3
       rect:
         serializedVersion: 2
-        x: 331
-        y: 5
-        width: 19
-        height: 14
+        x: 88
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -228,12 +228,12 @@ TextureImporter:
       name: Hechizo_vendaval_sin_almiria_4
       rect:
         serializedVersion: 2
-        x: 352
-        y: 4
-        width: 17
-        height: 11
+        x: 110
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -250,12 +250,12 @@ TextureImporter:
       name: Hechizo_vendaval_sin_almiria_5
       rect:
         serializedVersion: 2
-        x: 364
-        y: 11
-        width: 8
-        height: 8
+        x: 132
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -272,12 +272,12 @@ TextureImporter:
       name: Hechizo_vendaval_sin_almiria_6
       rect:
         serializedVersion: 2
-        x: 374
-        y: 5
-        width: 10
-        height: 10
+        x: 154
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -294,12 +294,12 @@ TextureImporter:
       name: Hechizo_vendaval_sin_almiria_7
       rect:
         serializedVersion: 2
-        x: 386
-        y: 4
-        width: 30
-        height: 15
+        x: 176
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -316,12 +316,12 @@ TextureImporter:
       name: Hechizo_vendaval_sin_almiria_8
       rect:
         serializedVersion: 2
-        x: 421
-        y: 11
-        width: 186
-        height: 14
+        x: 198
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -334,11 +334,407 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_9
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c3f17c8ca143d43a67dcf113480c0f
+      internalID: 828274746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732793279c54b3b428d443860b8996b3
+      internalID: 2145835912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4dcd06c9d87a24b9a49e1a635fc08f
+      internalID: 1353205770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_12
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dfd66825c81fc43aa114dd8e2c9d0c
+      internalID: -22323816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0e525c862c8c346bcd19fdb03e5efc
+      internalID: -775107865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cb3b435f714ff4ab97235ceda048dc
+      internalID: -2086546736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300062dd1eacc234dadc2bde2aca60df
+      internalID: 494843365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_16
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9335d86310d671c418a3aa4168b7c395
+      internalID: 475214231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_17
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b95c5b4fd944f49aabc804307de5f7
+      internalID: 990245189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_18
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38684dc76ca3e5e4eb7dae9fb3bc8bcf
+      internalID: 1436823436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea356a4f19b5744fb257bc334eed589
+      internalID: 323046893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_20
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f0e7e4154cd314e8d8c59b138ba5e3
+      internalID: 283338594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_21
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e891eef1904727a40b8be20f9f8d831f
+      internalID: 472800862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_22
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1babc0458aedef0448885f109040d685
+      internalID: -499348904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_23
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecd6fba49a686142be0ab0a3ddbdff9
+      internalID: -1441383327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_24
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16a62ca4529ade48b90d124c5f3ba92
+      internalID: -2120125983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_25
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593fa82db9e43f24b8d487c77e0d145f
+      internalID: -1583877230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hechizo_vendaval_sin_almiria_26
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84939f7d470439e43b200b44c9aa2466
+      internalID: -1519239409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 81a68b2a26f4d394bb09d4c6264e5980
     internalID: 0
     vertices: []
     indices: 
@@ -346,17 +742,37 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":20.0,"y":1.0},"gridSpriteSize":{"x":22.0,"y":25.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Hechizo_vendaval_sin_almiria_0: -5284681028432492465
       Hechizo_vendaval_sin_almiria_1: -8238456989163509611
+      Hechizo_vendaval_sin_almiria_10: 2145835912
+      Hechizo_vendaval_sin_almiria_11: 1353205770
+      Hechizo_vendaval_sin_almiria_12: -22323816
+      Hechizo_vendaval_sin_almiria_13: -775107865
+      Hechizo_vendaval_sin_almiria_14: -2086546736
+      Hechizo_vendaval_sin_almiria_15: 494843365
+      Hechizo_vendaval_sin_almiria_16: 475214231
+      Hechizo_vendaval_sin_almiria_17: 990245189
+      Hechizo_vendaval_sin_almiria_18: 1436823436
+      Hechizo_vendaval_sin_almiria_19: 323046893
       Hechizo_vendaval_sin_almiria_2: 2354964908892634255
+      Hechizo_vendaval_sin_almiria_20: 283338594
+      Hechizo_vendaval_sin_almiria_21: 472800862
+      Hechizo_vendaval_sin_almiria_22: -499348904
+      Hechizo_vendaval_sin_almiria_23: -1441383327
+      Hechizo_vendaval_sin_almiria_24: -2120125983
+      Hechizo_vendaval_sin_almiria_25: -1583877230
+      Hechizo_vendaval_sin_almiria_26: -1519239409
       Hechizo_vendaval_sin_almiria_3: 2820991568416432387
       Hechizo_vendaval_sin_almiria_4: 7669439187921278354
       Hechizo_vendaval_sin_almiria_5: -7148173951089125981
       Hechizo_vendaval_sin_almiria_6: -1848862796155475536
       Hechizo_vendaval_sin_almiria_7: 691959564867538224
       Hechizo_vendaval_sin_almiria_8: -5986744640649217399
+      Hechizo_vendaval_sin_almiria_9: 828274746
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

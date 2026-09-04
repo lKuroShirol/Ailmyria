@@ -1,52 +1,58 @@
 fileFormatVersion: 2
-guid: 115c8d680cf1a694aab2d7d08a300b23
+guid: 4faf826e6423fa942b6e63cc71418028
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6496033888311467462
-    second: Hechizo_chispa_0
+      213: -478405457729863805
+    second: Almiria_varita_sacandola_0
   - first:
-      213: -5290580509868153038
-    second: Hechizo_chispa_1
+      213: -3621318833829529036
+    second: Almiria_varita_sacandola_1
   - first:
-      213: 1026252030160980760
-    second: Hechizo_chispa_2
+      213: 4429465394046428499
+    second: Almiria_varita_sacandola_2
   - first:
-      213: -1066725254287380380
-    second: Hechizo_chispa_3
+      213: -7779369526470034369
+    second: Almiria_varita_sacandola_3
   - first:
-      213: 5358768152351994370
-    second: Hechizo_chispa_4
+      213: 8699078819433718549
+    second: Almiria_varita_sacandola_4
   - first:
-      213: -5060654127590592474
-    second: Hechizo_chispa_5
+      213: 8531467285040662308
+    second: Almiria_varita_sacandola_5
   - first:
-      213: 3736283698958695554
-    second: Hechizo_chispa_6
+      213: 2634846698876934958
+    second: Almiria_varita_sacandola_6
   - first:
-      213: -195834231556884602
-    second: Hechizo_chispa_7
+      213: -1543231357915637928
+    second: Almiria_varita_sacandola_7
   - first:
-      213: 303658243149532209
-    second: Hechizo_chispa_8
+      213: 9137949157555895286
+    second: Almiria_varita_sacandola_8
   - first:
-      213: 852184400841472718
-    second: Hechizo_chispa_9
+      213: -8588592222639478226
+    second: Almiria_varita_sacandola_9
   - first:
-      213: 2341603317417373871
-    second: Hechizo_chispa_10
+      213: 5381164479504334932
+    second: Almiria_varita_sacandola_10
   - first:
-      213: 4631512016059433525
-    second: Hechizo_chispa_11
+      213: 2232184259755978015
+    second: Almiria_varita_sacandola_11
   - first:
-      213: 3531765880506294945
-    second: Hechizo_chispa_12
+      213: -521023310595647543
+    second: Almiria_varita_sacandola_12
   - first:
-      213: -5988927678216462924
-    second: Hechizo_chispa_13
+      213: -1611731987021481438
+    second: Almiria_varita_sacandola_13
   - first:
-      213: 960779368980323870
-    second: Hechizo_chispa_14
+      213: 2125370713075467310
+    second: Almiria_varita_sacandola_14
+  - first:
+      213: 5099690933618120090
+    second: Almiria_varita_sacandola_15
+  - first:
+      213: -8638194723968672079
+    second: Almiria_varita_sacandola_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -79,7 +85,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,10 +96,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -155,353 +161,375 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hechizo_chispa_0
+      name: Almiria_varita_sacandola_0
       rect:
         serializedVersion: 2
-        x: 22
+        x: 2
         y: 0
-        width: 22
-        height: 25
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cd54b9676c862a50800000000000000
-      internalID: 6496033888311467462
+      spriteID: 38f376955cc5c59f0800000000000000
+      internalID: -478405457729863805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_1
+      name: Almiria_varita_sacandola_1
       rect:
         serializedVersion: 2
-        x: 44
+        x: 24
         y: 0
-        width: 22
-        height: 25
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23724b59e051496b0800000000000000
-      internalID: -5290580509868153038
+      spriteID: 43ab82b05bd7ebdc0800000000000000
+      internalID: -3621318833829529036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_2
+      name: Almiria_varita_sacandola_2
       rect:
         serializedVersion: 2
-        x: 66
+        x: 46
         y: 0
-        width: 22
-        height: 25
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81bc4cbb8cafd3e00800000000000000
-      internalID: 1026252030160980760
+      spriteID: 355e50dbe4f987d30800000000000000
+      internalID: 4429465394046428499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_3
+      name: Almiria_varita_sacandola_3
       rect:
         serializedVersion: 2
-        x: 88
+        x: 67
         y: 0
-        width: 22
-        height: 25
+        width: 19
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4603341780b3231f0800000000000000
-      internalID: -1066725254287380380
+      spriteID: f3c314ee1a02a0490800000000000000
+      internalID: -7779369526470034369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_4
+      name: Almiria_varita_sacandola_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513a879b81659b870800000000000000
+      internalID: 8699078819433718549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_5
       rect:
         serializedVersion: 2
         x: 110
         y: 0
-        width: 22
-        height: 25
+        width: 20
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 202fd9a1e3b2e5a40800000000000000
-      internalID: 5358768152351994370
+      spriteID: 42707b94b4cd56670800000000000000
+      internalID: 8531467285040662308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_5
+      name: Almiria_varita_sacandola_6
       rect:
         serializedVersion: 2
         x: 132
         y: 0
-        width: 22
-        height: 25
+        width: 20
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62039d922e1f4c9b0800000000000000
-      internalID: -5060654127590592474
+      spriteID: e2b9b24dc1bd09420800000000000000
+      internalID: 2634846698876934958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_6
+      name: Almiria_varita_sacandola_7
       rect:
         serializedVersion: 2
         x: 154
         y: 0
-        width: 22
-        height: 25
+        width: 20
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28cf3808a32f9d330800000000000000
-      internalID: 3736283698958695554
+      spriteID: 857d131a147559ae0800000000000000
+      internalID: -1543231357915637928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_7
+      name: Almiria_varita_sacandola_8
       rect:
         serializedVersion: 2
         x: 176
         y: 0
-        width: 22
-        height: 25
+        width: 20
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 687b031ddc1484df0800000000000000
-      internalID: -195834231556884602
+      spriteID: 6fbf2b7085480de70800000000000000
+      internalID: 9137949157555895286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_8
+      name: Almiria_varita_sacandola_9
       rect:
         serializedVersion: 2
         x: 198
         y: 0
-        width: 22
-        height: 25
+        width: 20
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13c0c04309fc63400800000000000000
-      internalID: 303658243149532209
+      spriteID: e2a24e8b0e03fc880800000000000000
+      internalID: -8588592222639478226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_9
+      name: Almiria_varita_sacandola_10
       rect:
         serializedVersion: 2
         x: 220
         y: 0
-        width: 22
-        height: 25
+        width: 20
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecaf84f823193db00800000000000000
-      internalID: 852184400841472718
+      spriteID: 4504ece559cbdaa40800000000000000
+      internalID: 5381164479504334932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_10
+      name: Almiria_varita_sacandola_11
       rect:
         serializedVersion: 2
         x: 242
         y: 0
-        width: 22
-        height: 25
+        width: 20
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa0f9839fcb0f7020800000000000000
-      internalID: 2341603317417373871
+      spriteID: f1d29f3f1cf4afe10800000000000000
+      internalID: 2232184259755978015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_11
+      name: Almiria_varita_sacandola_12
       rect:
         serializedVersion: 2
         x: 264
         y: 0
-        width: 22
-        height: 25
+        width: 20
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5320d2ac3af664040800000000000000
-      internalID: 4631512016059433525
+      spriteID: 9c79f3c3f04f4c8f0800000000000000
+      internalID: -521023310595647543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_12
+      name: Almiria_varita_sacandola_13
       rect:
         serializedVersion: 2
         x: 286
         y: 0
-        width: 22
-        height: 25
+        width: 20
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a22c613b5a530130800000000000000
-      internalID: 3531765880506294945
+      spriteID: 22a33701c4af1a9e0800000000000000
+      internalID: -1611731987021481438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_13
+      name: Almiria_varita_sacandola_14
       rect:
         serializedVersion: 2
-        x: 308
+        x: 309
         y: 0
-        width: 22
-        height: 25
+        width: 19
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4bd1762e10e03eca0800000000000000
-      internalID: -5988927678216462924
+      spriteID: e24c1e02765de7d10800000000000000
+      internalID: 2125370713075467310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_14
+      name: Almiria_varita_sacandola_15
       rect:
         serializedVersion: 2
-        x: 330
+        x: 331
         y: 0
-        width: 22
-        height: 25
+        width: 19
+        height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1e9893eebf555d00800000000000000
-      internalID: 960779368980323870
+      spriteID: a95969282edb5c640800000000000000
+      internalID: 5099690933618120090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hechizo_chispa_15
+      name: Almiria_varita_sacandola_16
       rect:
         serializedVersion: 2
-        x: 352
+        x: 353
         y: 0
-        width: 22
-        height: 25
+        width: 19
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: be1f4d36b1902db4db70791806000cb2
-      internalID: -1600991643
+      spriteID: 1be91396aa7fe1880800000000000000
+      internalID: -8638194723968672079
       vertices: []
       indices: 
       edges: []
@@ -510,7 +538,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0875a9bfe9b14a1489f195b3da269e2b
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -518,26 +546,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":20.0,"y":1.0},"gridSpriteSize":{"x":22.0,"y":25.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Hechizo_chispa_0: 6496033888311467462
-      Hechizo_chispa_1: -5290580509868153038
-      Hechizo_chispa_10: 2341603317417373871
-      Hechizo_chispa_11: 4631512016059433525
-      Hechizo_chispa_12: 3531765880506294945
-      Hechizo_chispa_13: -5988927678216462924
-      Hechizo_chispa_14: 960779368980323870
-      Hechizo_chispa_15: -1600991643
-      Hechizo_chispa_2: 1026252030160980760
-      Hechizo_chispa_3: -1066725254287380380
-      Hechizo_chispa_4: 5358768152351994370
-      Hechizo_chispa_5: -5060654127590592474
-      Hechizo_chispa_6: 3736283698958695554
-      Hechizo_chispa_7: -195834231556884602
-      Hechizo_chispa_8: 303658243149532209
-      Hechizo_chispa_9: 852184400841472718
+      Almiria_varita_sacandola_0: -478405457729863805
+      Almiria_varita_sacandola_1: -3621318833829529036
+      Almiria_varita_sacandola_10: 5381164479504334932
+      Almiria_varita_sacandola_11: 2232184259755978015
+      Almiria_varita_sacandola_12: -521023310595647543
+      Almiria_varita_sacandola_13: -1611731987021481438
+      Almiria_varita_sacandola_14: 2125370713075467310
+      Almiria_varita_sacandola_15: 5099690933618120090
+      Almiria_varita_sacandola_16: -8638194723968672079
+      Almiria_varita_sacandola_2: 4429465394046428499
+      Almiria_varita_sacandola_3: -7779369526470034369
+      Almiria_varita_sacandola_4: 8699078819433718549
+      Almiria_varita_sacandola_5: 8531467285040662308
+      Almiria_varita_sacandola_6: 2634846698876934958
+      Almiria_varita_sacandola_7: -1543231357915637928
+      Almiria_varita_sacandola_8: 9137949157555895286
+      Almiria_varita_sacandola_9: -8588592222639478226
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

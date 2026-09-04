@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,10 +93,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -161,12 +161,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_0
       rect:
         serializedVersion: 2
-        x: 53
-        y: 8
-        width: 28
-        height: 10
+        x: 44
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_1
       rect:
         serializedVersion: 2
-        x: 94
-        y: 7
-        width: 10
-        height: 13
+        x: 66
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_2
       rect:
         serializedVersion: 2
-        x: 114
-        y: 6
-        width: 14
-        height: 17
+        x: 88
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -227,12 +227,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_3
       rect:
         serializedVersion: 2
-        x: 136
-        y: 6
-        width: 15
-        height: 18
+        x: 110
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -249,12 +249,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_4
       rect:
         serializedVersion: 2
-        x: 158
-        y: 6
-        width: 15
-        height: 18
+        x: 132
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -271,12 +271,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_5
       rect:
         serializedVersion: 2
-        x: 180
-        y: 6
-        width: 16
-        height: 19
+        x: 154
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -293,12 +293,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_6
       rect:
         serializedVersion: 2
-        x: 202
-        y: 6
-        width: 16
-        height: 19
+        x: 176
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -315,12 +315,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_7
       rect:
         serializedVersion: 2
-        x: 224
-        y: 6
-        width: 16
-        height: 19
+        x: 198
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -337,12 +337,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_8
       rect:
         serializedVersion: 2
-        x: 246
-        y: 6
-        width: 16
-        height: 19
+        x: 220
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -359,12 +359,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_9
       rect:
         serializedVersion: 2
-        x: 268
-        y: 6
-        width: 16
-        height: 19
+        x: 242
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -381,12 +381,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_10
       rect:
         serializedVersion: 2
-        x: 290
-        y: 6
-        width: 16
-        height: 19
+        x: 264
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -403,12 +403,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_11
       rect:
         serializedVersion: 2
-        x: 312
-        y: 6
-        width: 16
-        height: 19
+        x: 286
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -425,12 +425,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_12
       rect:
         serializedVersion: 2
-        x: 334
-        y: 6
-        width: 16
-        height: 19
+        x: 308
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -447,12 +447,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_13
       rect:
         serializedVersion: 2
-        x: 356
-        y: 6
-        width: 16
-        height: 19
+        x: 330
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -469,12 +469,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_14
       rect:
         serializedVersion: 2
-        x: 378
-        y: 6
-        width: 16
-        height: 19
+        x: 352
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -491,12 +491,12 @@ TextureImporter:
       name: Hechizo_chispa_resplandor_15
       rect:
         serializedVersion: 2
-        x: 400
-        y: 6
-        width: 16
-        height: 19
+        x: 374
+        y: 0
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -509,11 +509,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Hechizo_chispa_resplandor_16
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfd02ebc70f1a04aaf434ee06f52b7f
+      internalID: 1847123564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9843e9c7c00d30742ad4cc836869f0ff
     internalID: 0
     vertices: []
     indices: 
@@ -521,7 +543,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":20.0,"y":1.0},"gridSpriteSize":{"x":22.0,"y":25.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Hechizo_chispa_resplandor_0: -7523950841331332668
       Hechizo_chispa_resplandor_1: -6648440937552449172
@@ -531,6 +555,7 @@ TextureImporter:
       Hechizo_chispa_resplandor_13: 2263013154618494844
       Hechizo_chispa_resplandor_14: 5401010867267183531
       Hechizo_chispa_resplandor_15: 4166764851032196048
+      Hechizo_chispa_resplandor_16: 1847123564
       Hechizo_chispa_resplandor_2: 7393657045168175023
       Hechizo_chispa_resplandor_3: -4469741104762896439
       Hechizo_chispa_resplandor_4: 374830052877201681

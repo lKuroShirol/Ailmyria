@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cueva.unity
     guid: e65a3cc39b397ed45b862b263dd01b01
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 7da5247696ee0884993ea0387024fbc7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

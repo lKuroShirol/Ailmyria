@@ -207,6 +207,8 @@ MonoBehaviour:
   chispaObject: {fileID: 4564387842245483291}
   TeclaChispa: 17
   tiempoEncendido: 3
+  animatorNormal: {fileID: 9100000, guid: e40b2b3adf7b07b48b30475bf236e836, type: 2}
+  animatorMejorado: {fileID: 9100000, guid: 9764a28d7fded15419189258b63136ad, type: 2}
 --- !u!114 &8533517730482002766
 MonoBehaviour:
   m_ObjectHideFlags: 0
