@@ -2728,6 +2728,9 @@ MonoBehaviour:
   followNPC: {fileID: 0}
   QuieresQueSiga: 0
   NPCtag: 
+  soltarObjetoAlTerminar: 0
+  prefabObjetoDrop: {fileID: 0}
+  puntoDeSpawnDrop: {fileID: 0}
 --- !u!4 &76034505
 Transform:
   m_ObjectHideFlags: 0
@@ -7628,6 +7631,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &622533819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 622533820}
+  m_Layer: 0
+  m_Name: SpawnVarita
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &622533820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622533819}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.24, y: -9.79, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &631127410
 GameObject:
   m_ObjectHideFlags: 0
@@ -8208,6 +8242,9 @@ MonoBehaviour:
   followNPC: {fileID: 0}
   QuieresQueSiga: 0
   NPCtag: 
+  soltarObjetoAlTerminar: 0
+  prefabObjetoDrop: {fileID: 0}
+  puntoDeSpawnDrop: {fileID: 0}
 --- !u!95 &702074059
 Animator:
   serializedVersion: 7
@@ -16533,6 +16570,9 @@ MonoBehaviour:
   followNPC: {fileID: 0}
   QuieresQueSiga: 0
   NPCtag: 
+  soltarObjetoAlTerminar: 0
+  prefabObjetoDrop: {fileID: 0}
+  puntoDeSpawnDrop: {fileID: 0}
 --- !u!4 &1110894847
 Transform:
   m_ObjectHideFlags: 0
@@ -17781,6 +17821,9 @@ MonoBehaviour:
   followNPC: {fileID: 0}
   QuieresQueSiga: 0
   NPCtag: 
+  soltarObjetoAlTerminar: 0
+  prefabObjetoDrop: {fileID: 0}
+  puntoDeSpawnDrop: {fileID: 0}
 --- !u!95 &1204280044
 Animator:
   serializedVersion: 7
@@ -18562,6 +18605,9 @@ MonoBehaviour:
   followNPC: {fileID: 0}
   QuieresQueSiga: 0
   NPCtag: 
+  soltarObjetoAlTerminar: 0
+  prefabObjetoDrop: {fileID: 0}
+  puntoDeSpawnDrop: {fileID: 0}
 --- !u!4 &1318539538
 Transform:
   m_ObjectHideFlags: 0
@@ -30570,6 +30616,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1907056497}
     - target: {fileID: 383494488696338368, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: prefabObjetoDrop
+      value: 
+      objectReference: {fileID: 1036835446020986707, guid: 2652aba60690abd4d9eed4325afdeaad, type: 3}
+    - target: {fileID: 383494488696338368, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: puntoDeSpawnDrop
+      value: 
+      objectReference: {fileID: 622533820}
+    - target: {fileID: 383494488696338368, guid: 505968fd94a20394986372c3d787c95b, type: 3}
       propertyPath: reaccionBrujita1
       value: 
       objectReference: {fileID: 3201868200928958740}
@@ -31460,4 +31514,5 @@ SceneRoots:
   - {fileID: 448222043}
   - {fileID: 433467752}
   - {fileID: 1825543332}
+  - {fileID: 622533820}
   - {fileID: 1218027683}
