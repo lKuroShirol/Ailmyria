@@ -15,10 +15,10 @@ public class Flotar : MonoBehaviour
     private Vector3 posicionInicial;
     [Header("Objeto a Desactivar")]
     public GameObject ObjetoDesactivable;
+    BrujitaMove brujitamove;
     void Start()
     {
-        
-        posicionInicial = transform.position;
+        brujitamove = FindAnyObjectByType<BrujitaMove>();
     }
 
     void Update()
@@ -40,6 +40,8 @@ public class Flotar : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             print("FUNCIONAA");
+            brujitamove.TATATATAAA();
+
             ObjetoDesactivable.SetActive(false);
         }
     }

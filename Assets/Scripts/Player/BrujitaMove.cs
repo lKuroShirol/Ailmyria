@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEditor.UIElements.ToolbarMenu;
@@ -23,7 +24,9 @@ public class BrujitaMove : MonoBehaviour
     [Header("Animación")]
     private Animator animator;
     private Vector2 ultimaDireccion = Vector2.down;
-
+    [Header("Audio")]
+    public AudioSource audioSource; 
+    public AudioClip sonidoObjeto;
     [Header("Animación Varita")]
     [SerializeField] private RuntimeAnimatorController animatorSinVarita;
     [SerializeField] private RuntimeAnimatorController animatorConVarita;
@@ -209,8 +212,25 @@ public class BrujitaMove : MonoBehaviour
             animator.SetFloat("MoveX", 0f);
             animator.SetFloat("MoveY", dir.y);
         }
+        
     }
-
+    public void TATATATAAA()
+    {
+        
+        animator.SetBool("ObjetoObtenido", true);
+        if (audioSource != null && sonidoObjeto != null)
+        {
+            audioSource.PlayOneShot(sonidoObjeto);
+        }
+        print("Lo hiciste ZELDA!");
+        StartCoroutine(EsperaBro());
+       
+    }
+   IEnumerator EsperaBro()
+    {
+        yield return new WaitForSeconds(1.9f);
+        animator.SetBool("ObjetoObtenido", false);
+    }
     private void OnDrawGizmos()
     {
         Vector2 centroGizmo = Application.isPlaying

@@ -724,6 +724,8 @@ MonoBehaviour:
   textoNPC: {fileID: 16415840}
   panelBrujita: {fileID: 1597090052}
   textoBrujita: {fileID: 2027923920}
+  panelNarracion: {fileID: 0}
+  textoNarracion: {fileID: 0}
   reaccionNPC1: {fileID: 0}
   reaccionNPC2: {fileID: 0}
   reaccionNPC3: {fileID: 0}
@@ -736,12 +738,14 @@ MonoBehaviour:
   ActualDialogoNPC: {fileID: 0}
   conversacion:
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: Pescado Fresco
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: Parece listo para el almuerzo
     usarReaccion1: 0
     usarReaccion2: 0
@@ -754,6 +758,9 @@ MonoBehaviour:
   followNPC: {fileID: 0}
   QuieresQueSiga: 0
   NPCtag: 
+  soltarObjetoAlTerminar: 0
+  prefabObjetoDrop: {fileID: 0}
+  puntoDeSpawnDrop: {fileID: 0}
 --- !u!1 &54334863
 GameObject:
   m_ObjectHideFlags: 0
@@ -5525,6 +5532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Objects_destroyd
   id: 4
+  rockEvent: {fileID: 0}
 --- !u!212 &357305324
 SpriteRenderer:
   serializedVersion: 2
@@ -6003,6 +6011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Objects_destroyd
   id: 5
+  rockEvent: {fileID: 0}
 --- !u!212 &548350639
 SpriteRenderer:
   serializedVersion: 2
@@ -7458,6 +7467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Burn
   teclaQuemar: 19
+  tecla: {fileID: 0}
 --- !u!1 &1023395434
 GameObject:
   m_ObjectHideFlags: 0
@@ -8397,6 +8407,8 @@ MonoBehaviour:
   textoNPC: {fileID: 7438397406651457369}
   panelBrujita: {fileID: 1597090052}
   textoBrujita: {fileID: 2027923920}
+  panelNarracion: {fileID: 0}
+  textoNarracion: {fileID: 0}
   reaccionNPC1: {fileID: 6973399256544504931}
   reaccionNPC2: {fileID: 2158349249128157656}
   reaccionNPC3: {fileID: 8673736123978855372}
@@ -8409,12 +8421,14 @@ MonoBehaviour:
   ActualDialogoNPC: {fileID: 1422431940}
   conversacion:
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "Hola se\xF1or"
     usarReaccion1: 0
     usarReaccion2: 1
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Hola, es la primera vez que veo tu rostro, dime, encantado peque\xF1a,
       \xBFCu\xE1l es tu nombre?\r\n"
     usarReaccion1: 1
@@ -8422,24 +8436,28 @@ MonoBehaviour:
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "Me llamo Almiria, \xBFCu\xE1l es el suyo? \r\n"
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: ' Mi nombre es Barei, es un placer conocerte Almiria '
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "\xBF\xA1Es usted un anciano!? pero se ve muy joven "
     usarReaccion1: 0
     usarReaccion2: 1
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Gracias por tu lindo comentario, parece que me he cuidado bien estos
       60 a\xF1os.\r\n "
     usarReaccion1: 0
@@ -8447,18 +8465,21 @@ MonoBehaviour:
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: 'La verdad es que ni se notan '
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 1
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Ja ja ja\u2026 Tu si que sabes c\xF3mo halagar a viejitos como yo. "
     usarReaccion1: 0
     usarReaccion2: 1
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Cu\xE9ntame, Almiria, \xBFHay algo que este anciano pueda hacer por
       t\xED?\r\n"
     usarReaccion1: 1
@@ -8466,6 +8487,7 @@ MonoBehaviour:
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "Estoy buscando unos fragmentos brillantes. \xBFDe casualidad no ha
       visto algo parecido?\r\n\r\n"
     usarReaccion1: 0
@@ -8473,30 +8495,35 @@ MonoBehaviour:
     usarReaccion3: 0
     usarReaccion4: 1
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Ahora que lo mencionas, creo que v\xED algo brillando...\r\n"
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 1
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "\xBFQu\xE9 cosa?"
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 1
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: El sol
     usarReaccion1: 0
     usarReaccion2: 1
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: ._.
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 1
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: 'Bueno ya enserio. No pensaba pedirte algo a cambio, pero si me ofreces
       tu ayuda...
 
@@ -8506,6 +8533,7 @@ MonoBehaviour:
     usarReaccion3: 1
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: 'Hablad Sabio anciano
 
 '
@@ -8514,12 +8542,14 @@ MonoBehaviour:
     usarReaccion3: 0
     usarReaccion4: 1
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Ver\xE1s\u2026 "
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 1
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Hace alrededor de 1 a\xF1o... Estoy buscando una fotograf\xEDa que
       perd\xED..."
     usarReaccion1: 0
@@ -8527,6 +8557,7 @@ MonoBehaviour:
     usarReaccion3: 1
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "No es una fotograf\xEDa cualquiera, es el \xFAnico recuerdo que tengo
       de mis padres "
     usarReaccion1: 1
@@ -8534,30 +8565,35 @@ MonoBehaviour:
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: 'Estoy perdiendo la memoria... '
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 1
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: '... '
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 1
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "\xBFSon sus padres quienes reposan bajo el gran \xE1rbol, verdad?"
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: Veo que te diste cuenta
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "\xA1Tambi\xE9n su l\xE1pida est\xE1 muy limpia! \xA1Y las flores est\xE1n
       m\xE1s vivas que nunca! \r\n"
     usarReaccion1: 0
@@ -8565,24 +8601,28 @@ MonoBehaviour:
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "Los amaba mucho se\xF1or"
     usarReaccion1: 0
     usarReaccion2: 1
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Y los sigo amando peque\xF1a Almiria\r\n\r\n"
     usarReaccion1: 0
     usarReaccion2: 1
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: 'Eres un sol '
     usarReaccion1: 0
     usarReaccion2: 1
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Y bueno, sin duda yo te ayudar\xE9 a buscar lo que est\xE1s buscando
       y a cambio. "
     usarReaccion1: 0
@@ -8590,18 +8630,21 @@ MonoBehaviour:
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Tu me ayudas a buscar esa fotograf\xEDa. \xBFTrato?"
     usarReaccion1: 0
     usarReaccion2: 1
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: Trato
     usarReaccion1: 0
     usarReaccion2: 1
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "\xA1Encontrar\xE9 su tesoro!"
     usarReaccion1: 0
     usarReaccion2: 1
@@ -8614,6 +8657,9 @@ MonoBehaviour:
   followNPC: {fileID: 0}
   QuieresQueSiga: 0
   NPCtag: 
+  soltarObjetoAlTerminar: 0
+  prefabObjetoDrop: {fileID: 0}
+  puntoDeSpawnDrop: {fileID: 0}
 --- !u!95 &1422431942
 Animator:
   serializedVersion: 7
@@ -8977,6 +9023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Burn
   teclaQuemar: 19
+  tecla: {fileID: 0}
 --- !u!1 &1503579027
 GameObject:
   m_ObjectHideFlags: 0
@@ -9443,9 +9490,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1908533307687007582, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1422431941}
+    - target: {fileID: 1908533307687007582, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CerrarDialogo
+      objectReference: {fileID: 0}
     - target: {fileID: 2140410425146815631, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3378787143476372387, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 150.5005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3378787143476372387, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 231.67712
       objectReference: {fileID: 0}
     - target: {fileID: 3378787143476372387, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -9478,6 +9541,10 @@ PrefabInstance:
     - target: {fileID: 5678169189423374013, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -127.77136
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073871611106363364, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
+      propertyPath: m_text
+      value: Saltar
       objectReference: {fileID: 0}
     - target: {fileID: 6646802657299640911, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -9944,6 +10011,8 @@ MonoBehaviour:
   textoNPC: {fileID: 16415840}
   panelBrujita: {fileID: 1597090052}
   textoBrujita: {fileID: 2027923920}
+  panelNarracion: {fileID: 0}
+  textoNarracion: {fileID: 0}
   reaccionNPC1: {fileID: 0}
   reaccionNPC2: {fileID: 0}
   reaccionNPC3: {fileID: 0}
@@ -9956,6 +10025,7 @@ MonoBehaviour:
   ActualDialogoNPC: {fileID: 1684931698}
   conversacion:
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: '(En recuerdo de mis amados Randy y Mary Barei, Q.E.P.D)
 
 '
@@ -9964,18 +10034,21 @@ MonoBehaviour:
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: Siempre me pone triste ver a quienes han ido a la gran estrella...
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 1
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "Qu\xE9 su luz alumbre los corazones de quienes lo necesitan..."
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 1
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "\u201CSun barai il tolinius\u201D  (Hasta el fin de los tiempos)\r\n"
     usarReaccion1: 0
     usarReaccion2: 0
@@ -9988,6 +10061,9 @@ MonoBehaviour:
   followNPC: {fileID: 0}
   QuieresQueSiga: 0
   NPCtag: 
+  soltarObjetoAlTerminar: 0
+  prefabObjetoDrop: {fileID: 0}
+  puntoDeSpawnDrop: {fileID: 0}
 --- !u!1 &1686423309
 GameObject:
   m_ObjectHideFlags: 0
@@ -10284,6 +10360,8 @@ MonoBehaviour:
   textoNPC: {fileID: 16415840}
   panelBrujita: {fileID: 1597090052}
   textoBrujita: {fileID: 2027923920}
+  panelNarracion: {fileID: 0}
+  textoNarracion: {fileID: 0}
   reaccionNPC1: {fileID: 0}
   reaccionNPC2: {fileID: 0}
   reaccionNPC3: {fileID: 0}
@@ -10296,12 +10374,14 @@ MonoBehaviour:
   ActualDialogoNPC: {fileID: 0}
   conversacion:
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "\u201CSun barai il tolinius\u201D  (Hasta el fin de los tiempos)\r\n"
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: La lapida esta decorada de forma muy bonita
     usarReaccion1: 0
     usarReaccion2: 0
@@ -10314,6 +10394,9 @@ MonoBehaviour:
   followNPC: {fileID: 0}
   QuieresQueSiga: 0
   NPCtag: 
+  soltarObjetoAlTerminar: 0
+  prefabObjetoDrop: {fileID: 0}
+  puntoDeSpawnDrop: {fileID: 0}
 --- !u!212 &1725095001
 SpriteRenderer:
   serializedVersion: 2
@@ -10791,6 +10874,8 @@ MonoBehaviour:
   textoNPC: {fileID: 7438397406651457369}
   panelBrujita: {fileID: 1597090052}
   textoBrujita: {fileID: 2027923920}
+  panelNarracion: {fileID: 0}
+  textoNarracion: {fileID: 0}
   reaccionNPC1: {fileID: 6973399256544504931}
   reaccionNPC2: {fileID: 2158349249128157656}
   reaccionNPC3: {fileID: 8673736123978855372}
@@ -10803,6 +10888,7 @@ MonoBehaviour:
   ActualDialogoNPC: {fileID: 0}
   conversacion:
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: Vuelve pronto joven bruja
     usarReaccion1: 0
     usarReaccion2: 1
@@ -10815,6 +10901,9 @@ MonoBehaviour:
   followNPC: {fileID: 0}
   QuieresQueSiga: 0
   NPCtag: 
+  soltarObjetoAlTerminar: 0
+  prefabObjetoDrop: {fileID: 0}
+  puntoDeSpawnDrop: {fileID: 0}
 --- !u!95 &1895781928
 Animator:
   serializedVersion: 7
@@ -15725,7 +15814,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chau
+  m_text: Saltar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fcd9b2b62adab4a47afa93379436fb52, type: 2}
   m_sharedMaterial: {fileID: 129115701489909951, guid: fcd9b2b62adab4a47afa93379436fb52, type: 2}
@@ -15841,8 +15930,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 726, y: -79}
-  m_SizeDelta: {x: 161.0643, y: 49.132}
+  m_AnchoredPosition: {x: 710.36316, y: -79}
+  m_SizeDelta: {x: 192.338, y: 49.132}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2070190995
 MonoBehaviour:

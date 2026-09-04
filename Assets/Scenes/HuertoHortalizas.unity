@@ -1399,6 +1399,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -148
       objectReference: {fileID: 0}
+    - target: {fileID: 6073871611106363364, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
+      propertyPath: m_text
+      value: Saltar
+      objectReference: {fileID: 0}
     - target: {fileID: 6646802657299640911, guid: 958fb68a9fb34f9428c9fb67f14969b6, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 129.59995
@@ -9679,6 +9683,8 @@ MonoBehaviour:
   textoNPC: {fileID: 2139899856}
   panelBrujita: {fileID: 529899165}
   textoBrujita: {fileID: 529899160}
+  panelNarracion: {fileID: 0}
+  textoNarracion: {fileID: 0}
   reaccionNPC1: {fileID: 2139899859}
   reaccionNPC2: {fileID: 2139899858}
   reaccionNPC3: {fileID: 2139899857}
@@ -9691,48 +9697,56 @@ MonoBehaviour:
   ActualDialogoNPC: {fileID: 0}
   conversacion:
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "Hol\u2026"
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Por favor, ay\xFAdame \r\n"
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Mi hija, mi hija\u2026\r\n"
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "\xBFQu\xE9 sucede? \r\n"
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "No puedo encontrar a mi hija desde esta ma\xF1ana \r\n"
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "He revisado en todos los lugares. A excepci\xF3n de la cueva\r\n"
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 1
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "\xBFLa cueva? \r\n"
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 1
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Esta hac\xEDa la derecha de nuestro huerto, pero no puedo ver nada
       dentro\r\n"
     usarReaccion1: 0
@@ -9740,12 +9754,14 @@ MonoBehaviour:
     usarReaccion3: 1
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: Por favor, ayuda a mi hija, debe estar muy asustada
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "Yo la traer\xE9 de vuelta, no se preocupe, espere aqu\xED por favor
       y mantenga la calma\r\n"
     usarReaccion1: 0
@@ -9753,6 +9769,7 @@ MonoBehaviour:
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "Muchas gracias, eres un sol. Juro que te recompensar\xE9"
     usarReaccion1: 0
     usarReaccion2: 1
@@ -9765,6 +9782,9 @@ MonoBehaviour:
   followNPC: {fileID: 0}
   QuieresQueSiga: 0
   NPCtag: 
+  soltarObjetoAlTerminar: 0
+  prefabObjetoDrop: {fileID: 0}
+  puntoDeSpawnDrop: {fileID: 0}
 --- !u!95 &1987520353
 Animator:
   serializedVersion: 7
@@ -10364,6 +10384,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -141.95004
       objectReference: {fileID: 0}
+    - target: {fileID: 1631331878135712339, guid: 59ba727b42489fb4cbf6b181c287eb23, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 160.3497
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631331878135712339, guid: 59ba727b42489fb4cbf6b181c287eb23, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 661.60876
+      objectReference: {fileID: 0}
     - target: {fileID: 2214105710389397339, guid: 59ba727b42489fb4cbf6b181c287eb23, type: 3}
       propertyPath: m_SizeDelta.x
       value: 525.0591
@@ -10375,6 +10403,14 @@ PrefabInstance:
     - target: {fileID: 2214105710389397339, guid: 59ba727b42489fb4cbf6b181c287eb23, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 3104735378862461570, guid: 59ba727b42489fb4cbf6b181c287eb23, type: 3}
+      propertyPath: m_text
+      value: Saltar
+      objectReference: {fileID: 0}
+    - target: {fileID: 3104735378862461570, guid: 59ba727b42489fb4cbf6b181c287eb23, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3286263989964522557, guid: 59ba727b42489fb4cbf6b181c287eb23, type: 3}
       propertyPath: m_Sprite
@@ -10431,6 +10467,14 @@ PrefabInstance:
     - target: {fileID: 4607930031713342364, guid: 59ba727b42489fb4cbf6b181c287eb23, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856293264994823182, guid: 59ba727b42489fb4cbf6b181c287eb23, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1987520352}
+    - target: {fileID: 4856293264994823182, guid: 59ba727b42489fb4cbf6b181c287eb23, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CerrarDialogo
       objectReference: {fileID: 0}
     - target: {fileID: 8276875992119394656, guid: 59ba727b42489fb4cbf6b181c287eb23, type: 3}
       propertyPath: m_SizeDelta.x
