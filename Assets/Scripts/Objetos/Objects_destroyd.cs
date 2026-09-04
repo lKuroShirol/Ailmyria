@@ -4,6 +4,18 @@ using UnityEngine.SceneManagement;
 public class Objects_destroyd : MonoBehaviour
 {
     [SerializeField] private int id;
+    public int Id => id;
+
+    [Header("Evento especial")]
+    [SerializeField] private Rock_Event rockEvent;
+
+    private void Awake()
+    {
+        if (rockEvent == null)
+        {
+            rockEvent = GetComponent<Rock_Event>();
+        }
+    }
 
     private void Start()
     {
@@ -31,6 +43,12 @@ public class Objects_destroyd : MonoBehaviour
                 SceneManager.GetActiveScene().name,
                 id
             );
+        }
+
+        if (rockEvent != null)
+        {
+            rockEvent.EventRoca();
+            return;
         }
 
         Destroy(gameObject);
