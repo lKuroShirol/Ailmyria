@@ -9,10 +9,16 @@ public class Hechizos_Manager : MonoBehaviour
     [SerializeField] private Viento viento;
     public bool vientoDesbloqueada = false;
 
+    [SerializeField] private Vendaval vendaval;
+    public bool vendavalDesbloqueada = false;
 
     [Header("Mejoras")]
     public bool anilloDesbloqueado = false;
 
+    //[Header("Objetos")]
+    //public bool varitaDesbloqueada = false;
+
+    //private static Hechizos_Manager instance;
 
     private void Awake()
     {
@@ -24,7 +30,20 @@ public class Hechizos_Manager : MonoBehaviour
         {
             viento = GetComponent<Viento>();
         }
+        if (vendaval == null)
+        {
+            vendaval = GetComponent<Vendaval>();
+        }
     }
+    //public void ActivarVarita()
+    //{
+    //    varitaDesbloqueada = true;
+    //}
+
+    //public void DesactivarVarita()
+    //{
+    //    varitaDesbloqueada = false;
+    //}
 
     public void ActivarViento()
     {
@@ -53,5 +72,15 @@ public class Hechizos_Manager : MonoBehaviour
     public void DesactivarAnillo()
     {
         anilloDesbloqueado = false;
+    }
+
+    public void ActivarVendaval()
+    {
+        vendavalDesbloqueada = true;
+    }
+
+    public void DesactivarVendaval()
+    {
+        vendavalDesbloqueada = false;
     }
 }
