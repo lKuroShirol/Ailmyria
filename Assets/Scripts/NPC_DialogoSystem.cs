@@ -87,6 +87,15 @@ public class NPCInteraccionSecuencial : MonoBehaviour
     public bool QuieresQueSiga;
     public string NPCtag;
 
+    [Header("Sistema de Drop de Objeto al Finalizar")]
+    [Tooltip("Activa esta casilla si este NPC debe soltar un objeto al terminar toda la conversación.")]
+    public bool soltarObjetoAlTerminar = false;
+    [Tooltip("Prefab del objeto que se va a dropear (aparecer) en el mundo.")]
+    public GameObject prefabObjetoDrop;
+    [Tooltip("Punto exacto donde aparecerá el objeto (si lodejas vacío, aparecerá en la posición del NPC).")]
+    public Transform puntoDeSpawnDrop;
+    private bool objetoYaSoltado = false;
+
     void Awake()
     {
         grimorioUI = FindAnyObjectByType<GrimorioUI>();
@@ -149,7 +158,7 @@ public class NPCInteraccionSecuencial : MonoBehaviour
         }
     }
 
-    void ManejarDialogo()
+    public void ManejarDialogo()
     {
         if (!dialogoAbierto)
         {
@@ -204,7 +213,6 @@ public class NPCInteraccionSecuencial : MonoBehaviour
             panelAActivar = panelNarracion;
             textoAUsar = textoNarracion;
 
-            // ¡Esta línea era la que faltaba!
             if (panelAActivar != null) panelAActivar.SetActive(true);
         }
         else if (turno.hablaElNPC)
@@ -269,6 +277,12 @@ public class NPCInteraccionSecuencial : MonoBehaviour
         indiceConversacion = 0;
         grimorioUI.isTalk = true;
 
+        // EJECUTAR EL DROP DEL OBJETO SI ESTÁ ACTIVADO Y NO SE HA SOLTADO AÚN
+        if (soltarObjetoAlTerminar && !objetoYaSoltado)
+        {
+            SoltarObjeto();
+        }
+
         if (rutinaEscritura != null)
         {
             StopCoroutine(rutinaEscritura);
@@ -276,6 +290,23 @@ public class NPCInteraccionSecuencial : MonoBehaviour
 
         OcultarTodo();
         PausarMovimientoJugador(false);
+    }
+
+    void SoltarObjeto()
+    {
+        if (prefabObjetoDrop != null)
+        {
+            // Determinamos la posición del drop (si hay un punto asignado usa ese, sino usa la posición del NPC)
+            Vector3 posicionSpawn = (puntoDeSpawnDrop != null) ? puntoDeSpawnDrop.position : transform.position;
+
+            Instantiate(prefabObjetoDrop, posicionSpawn, Quaternion.identity);
+            objetoYaSoltado = true;
+            Debug.Log("--- El NPC ha dropeado el objeto correctamente ---");
+        }
+        else
+        {
+            Debug.LogWarning("Se activó el drop en el NPC, pero falta asignar el Prefab del objeto.", this);
+        }
     }
 
     void OcultarTodo()

@@ -15,10 +15,10 @@ public class Hechizos_Manager : MonoBehaviour
     [Header("Mejoras")]
     public bool anilloDesbloqueado = false;
 
-    //[Header("Objetos")]
-    //public bool varitaDesbloqueada = false;
+    [Header("Objetos")]
+    public bool varitaDesbloqueada = false;
 
-    //private static Hechizos_Manager instance;
+    private static Hechizos_Manager instance;
 
     private void Awake()
     {
@@ -35,19 +35,22 @@ public class Hechizos_Manager : MonoBehaviour
             vendaval = GetComponent<Vendaval>();
         }
     }
-    //public void ActivarVarita()
-    //{
-    //    varitaDesbloqueada = true;
-    //}
+    public void ActivarVarita()
+    {
+      
+            varitaDesbloqueada = true; 
+        
+    }
 
-    //public void DesactivarVarita()
-    //{
-    //    varitaDesbloqueada = false;
-    //}
+    public void DesactivarVarita()
+    {
+        varitaDesbloqueada = false;
+    }
 
     public void ActivarViento()
     {
-        vientoDesbloqueada = true;
+       vientoDesbloqueada = true; 
+        
     }
 
     public void DesactivarViento()
