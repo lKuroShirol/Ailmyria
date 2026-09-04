@@ -2536,101 +2536,6 @@ MonoBehaviour:
   centroArea: {x: -11.36, y: 16.5}
   anchoArea: 10.23
   altoArea: 16.83
---- !u!1 &71257174
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 71257176}
-  - component: {fileID: 71257175}
-  m_Layer: 0
-  m_Name: ChatRio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &71257175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 71257174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7888933a35c09554dbf6be477f01eda8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCInteraccionSecuencial
-  distanciaInteraccion: 2.99
-  brujita: {fileID: 0}
-  indicadorObjeto: {fileID: 0}
-  panelNPC: {fileID: 1194695347}
-  textoNPC: {fileID: 1907056497}
-  panelBrujita: {fileID: 0}
-  textoBrujita: {fileID: 0}
-  panelNarracion: {fileID: 0}
-  textoNarracion: {fileID: 0}
-  reaccionNPC1: {fileID: 0}
-  reaccionNPC2: {fileID: 0}
-  reaccionNPC3: {fileID: 0}
-  reaccionBrujita1: {fileID: 0}
-  reaccionBrujita2: {fileID: 0}
-  reaccionBrujita3: {fileID: 0}
-  reaccionBrujita4: {fileID: 0}
-  AhoraNuevaCharla: 0
-  NewDialogoNPC1: {fileID: 0}
-  ActualDialogoNPC: {fileID: 0}
-  conversacion:
-  - hablaElNPC: 0
-    esPanelGeneral: 0
-    mensaje: "\xA1Que hermoso se ve el riachuelo!"
-    usarReaccion1: 0
-    usarReaccion2: 0
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 0
-    esPanelGeneral: 0
-    mensaje: Un momento...
-    usarReaccion1: 0
-    usarReaccion2: 0
-    usarReaccion3: 0
-    usarReaccion4: 0
-  - hablaElNPC: 0
-    esPanelGeneral: 0
-    mensaje: "\xA1Los fosforos!"
-    usarReaccion1: 0
-    usarReaccion2: 0
-    usarReaccion3: 0
-    usarReaccion4: 0
-  velocidadEscritura: 0.05
-  teclaInteraccion: 19
-  CondicionDialogo: 0
-  TerminoLaInteraccion: 0
-  followNPC: {fileID: 0}
-  QuieresQueSiga: 0
-  NPCtag: 
-  soltarObjetoAlTerminar: 0
-  prefabObjetoDrop: {fileID: 0}
-  puntoDeSpawnDrop: {fileID: 0}
---- !u!4 &71257176
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 71257174}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 76034505}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &72357187
 GameObject:
   m_ObjectHideFlags: 0
@@ -2754,8 +2659,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 76034505}
+  - component: {fileID: 76034504}
   - component: {fileID: 76034506}
-  - component: {fileID: 76034507}
   m_Layer: 0
   m_Name: Interaccion
   m_TagString: Untagged
@@ -2763,6 +2668,69 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &76034504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76034503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7888933a35c09554dbf6be477f01eda8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCInteraccionSecuencial
+  distanciaInteraccion: 3.93
+  brujita: {fileID: 863614848}
+  indicadorObjeto: {fileID: 0}
+  panelNPC: {fileID: 0}
+  textoNPC: {fileID: 0}
+  panelBrujita: {fileID: 1194695347}
+  textoBrujita: {fileID: 1907056497}
+  panelNarracion: {fileID: 0}
+  textoNarracion: {fileID: 0}
+  reaccionNPC1: {fileID: 0}
+  reaccionNPC2: {fileID: 0}
+  reaccionNPC3: {fileID: 0}
+  reaccionBrujita1: {fileID: 0}
+  reaccionBrujita2: {fileID: 0}
+  reaccionBrujita3: {fileID: 0}
+  reaccionBrujita4: {fileID: 0}
+  AhoraNuevaCharla: 0
+  NewDialogoNPC1: {fileID: 0}
+  ActualDialogoNPC: {fileID: 0}
+  conversacion:
+  - hablaElNPC: 0
+    esPanelGeneral: 0
+    mensaje: Que lindo riachuelo
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    esPanelGeneral: 0
+    mensaje: "Un momento... \xA1Oh.!"
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 0
+    usarReaccion4: 1
+  - hablaElNPC: 0
+    esPanelGeneral: 0
+    mensaje: "\xA1La caja de f\xF3sforos!"
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  velocidadEscritura: 0.02
+  teclaInteraccion: 19
+  CondicionDialogo: 1
+  TerminoLaInteraccion: 0
+  followNPC: {fileID: 0}
+  QuieresQueSiga: 0
+  NPCtag: 
+  soltarObjetoAlTerminar: 0
+  prefabObjetoDrop: {fileID: 0}
+  puntoDeSpawnDrop: {fileID: 0}
 --- !u!4 &76034505
 Transform:
   m_ObjectHideFlags: 0
@@ -2775,8 +2743,7 @@ Transform:
   m_LocalPosition: {x: -13.28, y: -1.96, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 71257176}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &76034506
@@ -2813,22 +2780,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.18993282, y: 0}
-  m_Radius: 2.2846127
---- !u!114 &76034507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 76034503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19fb112aea369e94f8d97299877b1f4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TriggerDialogo
-  soloUnaVez: 1
-  sistemaDialogoObjetivo: {fileID: 71257175}
+  m_Offset: {x: 0.010444164, y: 0}
+  m_Radius: 1.3877854
 --- !u!1 &84003688
 GameObject:
   m_ObjectHideFlags: 0
@@ -7678,6 +7631,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &622533819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 622533820}
+  m_Layer: 0
+  m_Name: SpawnVarita
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &622533820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622533819}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.24, y: -9.79, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &631127410
 GameObject:
   m_ObjectHideFlags: 0
@@ -30632,6 +30616,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1907056497}
     - target: {fileID: 383494488696338368, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: prefabObjetoDrop
+      value: 
+      objectReference: {fileID: 1036835446020986707, guid: 2652aba60690abd4d9eed4325afdeaad, type: 3}
+    - target: {fileID: 383494488696338368, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: puntoDeSpawnDrop
+      value: 
+      objectReference: {fileID: 622533820}
+    - target: {fileID: 383494488696338368, guid: 505968fd94a20394986372c3d787c95b, type: 3}
       propertyPath: reaccionBrujita1
       value: 
       objectReference: {fileID: 3201868200928958740}
@@ -31522,4 +31514,5 @@ SceneRoots:
   - {fileID: 448222043}
   - {fileID: 433467752}
   - {fileID: 1825543332}
+  - {fileID: 622533820}
   - {fileID: 1218027683}
