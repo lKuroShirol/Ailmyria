@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: c9436452b766d0049b90961f6bf738e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1547381250265105008
+    second: Almiria_objeto_obtenido_0
+  - first:
+      213: -2573008391536755561
+    second: Almiria_objeto_obtenido_1
+  - first:
+      213: -879638566862863632
+    second: Almiria_objeto_obtenido_2
+  - first:
+      213: -5511683556249559519
+    second: Almiria_objeto_obtenido_3
+  - first:
+      213: 614016222126231801
+    second: Almiria_objeto_obtenido_4
+  - first:
+      213: -925320347025205988
+    second: Almiria_objeto_obtenido_5
+  - first:
+      213: -5255879219592384731
+    second: Almiria_objeto_obtenido_6
+  - first:
+      213: -4228537175577824503
+    second: Almiria_objeto_obtenido_7
+  - first:
+      213: -944386453955859042
+    second: Almiria_objeto_obtenido_8
+  - first:
+      213: -8464675565831513219
+    second: Almiria_objeto_obtenido_9
+  - first:
+      213: 8206241015858884907
+    second: Almiria_objeto_obtenido_10
+  - first:
+      213: 7210188849660404726
+    second: Almiria_objeto_obtenido_11
+  - first:
+      213: -6500864059489275373
+    second: Almiria_objeto_obtenido_12
+  - first:
+      213: -3825815299932047044
+    second: Almiria_objeto_obtenido_13
+  - first:
+      213: 4903274384488847198
+    second: Almiria_objeto_obtenido_14
+  - first:
+      213: 6058402694337788173
+    second: Almiria_objeto_obtenido_15
+  - first:
+      213: -2495485773047260932
+    second: Almiria_objeto_obtenido_16
+  - first:
+      213: 4679504402532789105
+    second: Almiria_objeto_obtenido_17
+  - first:
+      213: 707010622011455113
+    second: Almiria_objeto_obtenido_18
+  - first:
+      213: 556626476952115299
+    second: Almiria_objeto_obtenido_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 11
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072c62a7c07697510800000000000000
+      internalID: 1547381250265105008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c3a521086da4cd0800000000000000
+      internalID: -2573008391536755561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2c76b4265eac3f0800000000000000
+      internalID: -879638566862863632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e126bf1019283b0800000000000000
+      internalID: -5511683556249559519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f05926308c658800800000000000000
+      internalID: 614016222126231801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c151f140c0a9823f0800000000000000
+      internalID: -925320347025205988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_6
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fa6d552bd5f07b0800000000000000
+      internalID: -5255879219592384731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_7
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9037622b7d73155c0800000000000000
+      internalID: -4228537175577824503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_8
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 0
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d2541168dd4e2f0800000000000000
+      internalID: -944386453955859042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b1fafab6e678a80800000000000000
+      internalID: -8464675565831513219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b217283b9bc62e170800000000000000
+      internalID: 8206241015858884907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_11
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3ad7bbe8cbf0460800000000000000
+      internalID: 7210188849660404726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_12
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312b909b49a48c5a0800000000000000
+      internalID: -6500864059489275373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39bb473149f7eac0800000000000000
+      internalID: -3825815299932047044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_14
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57dab3f21eeb0440800000000000000
+      internalID: 4903274384488847198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_15
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09f546d625c31450800000000000000
+      internalID: 6058402694337788173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_16
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf81a7b39e04e5dd0800000000000000
+      internalID: -2495485773047260932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_17
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17be7d50670f0f040800000000000000
+      internalID: 4679504402532789105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_18
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986bb613a6ecfc900800000000000000
+      internalID: 707010622011455113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_objeto_obtenido_19
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368de47e4d889b700800000000000000
+      internalID: 556626476952115299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Almiria_objeto_obtenido_0: 1547381250265105008
+      Almiria_objeto_obtenido_1: -2573008391536755561
+      Almiria_objeto_obtenido_10: 8206241015858884907
+      Almiria_objeto_obtenido_11: 7210188849660404726
+      Almiria_objeto_obtenido_12: -6500864059489275373
+      Almiria_objeto_obtenido_13: -3825815299932047044
+      Almiria_objeto_obtenido_14: 4903274384488847198
+      Almiria_objeto_obtenido_15: 6058402694337788173
+      Almiria_objeto_obtenido_16: -2495485773047260932
+      Almiria_objeto_obtenido_17: 4679504402532789105
+      Almiria_objeto_obtenido_18: 707010622011455113
+      Almiria_objeto_obtenido_19: 556626476952115299
+      Almiria_objeto_obtenido_2: -879638566862863632
+      Almiria_objeto_obtenido_3: -5511683556249559519
+      Almiria_objeto_obtenido_4: 614016222126231801
+      Almiria_objeto_obtenido_5: -925320347025205988
+      Almiria_objeto_obtenido_6: -5255879219592384731
+      Almiria_objeto_obtenido_7: -4228537175577824503
+      Almiria_objeto_obtenido_8: -944386453955859042
+      Almiria_objeto_obtenido_9: -8464675565831513219
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

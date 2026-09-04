@@ -1,0 +1,1273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &434415348847766825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3776642220572248046}
+  - component: {fileID: 3214342492817520360}
+  - component: {fileID: 8711021376424900556}
+  - component: {fileID: 383494488696338368}
+  m_Layer: 0
+  m_Name: JoanNPC2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3776642220572248046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434415348847766825}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4587008317966470465}
+  m_Father: {fileID: 1835880149695453405}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3214342492817520360
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434415348847766825}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: -1607128513
+  m_SortingLayer: 3
+  m_SortingOrder: 2
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -3620262629916609522, guid: 67abbfc0264a31c4bbc81fe03e499d8b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.3636364, y: 1.4545455}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!95 &8711021376424900556
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434415348847766825}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e219cf91f96dcaf498c4882cedf2b3fd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &383494488696338368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434415348847766825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7888933a35c09554dbf6be477f01eda8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPC_DialogoSystem
+  distanciaInteraccion: 2
+  brujita: {fileID: 0}
+  indicadorObjeto: {fileID: 4795160424938817290}
+  panelNPC: {fileID: 0}
+  textoNPC: {fileID: 0}
+  panelBrujita: {fileID: 0}
+  textoBrujita: {fileID: 0}
+  reaccionNPC1: {fileID: 0}
+  reaccionNPC2: {fileID: 0}
+  reaccionNPC3: {fileID: 0}
+  reaccionBrujita1: {fileID: 0}
+  reaccionBrujita2: {fileID: 0}
+  reaccionBrujita3: {fileID: 0}
+  reaccionBrujita4: {fileID: 0}
+  AhoraNuevaCharla: 1
+  NewDialogoNPC1: {fileID: 4347539023254552635}
+  ActualDialogoNPC: {fileID: 434415348847766825}
+  conversacion:
+  - hablaElNPC: 0
+    mensaje: "Joan, tengo buenas noticias, \xA1Mira!"
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: "\xA1Son mis f\xF3sforos!"
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: "\xA1Muchas gracias!  Ahora podr\xE9 hornear mi pan"
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: "Por cierto, hoy en la madrugada encontr\xE9 esto, te lo doy en agradecimiento
+      \r\n"
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 1
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: '(Joan entrega un fragmento brillante a Almiria) '
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 1
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    mensaje: "\xA1Es mi varita, Muchas gracias Joan!  "
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: 'Me alegra que fuera lo que esperabas, con tu permiso, ahora tengo un
+      delicioso pan que hornear '
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    mensaje: "\xA1Seguro ser\xE1 el pan m\xE1s rico de todo el bosque! Puede que
+      m\xE1s tarde venga un poco "
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: "\xA1Nos vemos Almi!\r\n"
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  velocidadEscritura: 0.01
+  teclaInteraccion: 19
+  CondicionDialogo: 0
+  TerminoLaInteraccion: 0
+  followNPC: {fileID: 0}
+  QuieresQueSiga: 0
+  NPCtag: 
+--- !u!1 &1009812576965420678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8131076741904401551}
+  - component: {fileID: 8660282414520718253}
+  m_Layer: 0
+  m_Name: E (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8131076741904401551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009812576965420678}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.049999237, y: 1.19, z: 0}
+  m_LocalScale: {x: 1.4569175, y: 1.4569175, z: 1.4569175}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6855007862643044004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8660282414520718253
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009812576965420678}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 6973580713444550648, guid: a200eb41abfddfd4ba02944fce2d1b55, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.2, y: 0.25}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!1 &1153104832974235328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5635156547552760525}
+  - component: {fileID: 1961635277746672741}
+  m_Layer: 0
+  m_Name: E (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5635156547552760525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153104832974235328}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.05, y: 1.19, z: 0}
+  m_LocalScale: {x: 1.4569175, y: 1.4569175, z: 1.4569175}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 795638202772146765}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1961635277746672741
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153104832974235328}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 6973580713444550648, guid: a200eb41abfddfd4ba02944fce2d1b55, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.2, y: 0.25}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!1 &1831650190202136804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 795638202772146765}
+  - component: {fileID: 2197597889427322304}
+  - component: {fileID: 5244341472731904831}
+  - component: {fileID: 5075515593006034738}
+  m_Layer: 0
+  m_Name: JoanNPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &795638202772146765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831650190202136804}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5635156547552760525}
+  m_Father: {fileID: 1835880149695453405}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2197597889427322304
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831650190202136804}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: -1607128513
+  m_SortingLayer: 3
+  m_SortingOrder: 2
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -3620262629916609522, guid: 67abbfc0264a31c4bbc81fe03e499d8b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.3636364, y: 1.4545455}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!95 &5244341472731904831
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831650190202136804}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e219cf91f96dcaf498c4882cedf2b3fd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5075515593006034738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831650190202136804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7888933a35c09554dbf6be477f01eda8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPC_DialogoSystem
+  distanciaInteraccion: 2
+  brujita: {fileID: 0}
+  indicadorObjeto: {fileID: 1153104832974235328}
+  panelNPC: {fileID: 0}
+  textoNPC: {fileID: 0}
+  panelBrujita: {fileID: 0}
+  textoBrujita: {fileID: 0}
+  reaccionNPC1: {fileID: 0}
+  reaccionNPC2: {fileID: 0}
+  reaccionNPC3: {fileID: 0}
+  reaccionBrujita1: {fileID: 0}
+  reaccionBrujita2: {fileID: 0}
+  reaccionBrujita3: {fileID: 0}
+  reaccionBrujita4: {fileID: 0}
+  AhoraNuevaCharla: 1
+  NewDialogoNPC1: {fileID: 4207993542513981807}
+  ActualDialogoNPC: {fileID: 1831650190202136804}
+  conversacion:
+  - hablaElNPC: 0
+    mensaje: 'Hola, disculpe que le moleste '
+    usarReaccion1: 1
+    usarReaccion2: 0
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: . . . (Notoriamente enojado)
+    usarReaccion1: 1
+    usarReaccion2: 0
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    mensaje: "\xBFSe\xF1or?... "
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 1
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: "Oh. \xBFQu\xE9 sucede?\r\n"
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    mensaje: '(Sorprendida) Que cambio de humor '
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 0
+    usarReaccion4: 1
+  - hablaElNPC: 1
+    mensaje: "Lo siento, no fue mi intenci\xF3n responder as\xED. Estoy un poquiiito
+      de mal humor\u2026 \r\n"
+    usarReaccion1: 1
+    usarReaccion2: 0
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: "Por cierto, no le hab\xEDa visto antes por aqu\xED, imagino que est\xE1s
+      de visita, \xBFVerdad?\r\n"
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 1
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    mensaje: "Si\u2026 Algo as\xED\r\n"
+    usarReaccion1: 1
+    usarReaccion2: 0
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    mensaje: "La verdad es que he perdido algunas cosas que son muy importantes para
+      m\xED\r\n\r\n"
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 1
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    mensaje: "Pero...D\xE9jeme presentarme: Mii nombre es Almiria, \xBFCu\xE1l es
+      el suyo?"
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: "\xA1Oh, qu\xE9 modales los m\xEDos!, si mam\xE1 me viera me dir\xEDa
+      un buen par de cosas\r\n\r\n"
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 1
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: 'Mi nombre es Joan, es un gusto conocerte Almiria '
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    mensaje: "El gusto es m\xEDo, don Joan, d\xEDgame, \xBFa que se debe su mal humor? "
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: 'Pasa que ayer por la tarde, cuando estaba dando un paseo por el bosque. '
+    usarReaccion1: 1
+    usarReaccion2: 0
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: "Vino una fuerte brisa la cu\xE1l se llev\xF3 volando mi caja de f\xF3sforos
+      a alg\xFAn lado"
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 1
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: "Intent\xE9 buscarla pero...  "
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 1
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: No la encuentro...
+    usarReaccion1: 1
+    usarReaccion2: 0
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: Sin mi caja no puedo prender mi horno de pan y-
+    usarReaccion1: 1
+    usarReaccion2: 0
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    mensaje: Sisisi. Fosforos, yo buscar
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    mensaje: "\xA1Yo ayudarte!"
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    mensaje: "(Otra vez me ofrec\xED a ayudar impulsivamente, \xBFPor qu\xE9  ser\xE1
+      que no puedo evitarlo?)\r\n"
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 0
+    usarReaccion4: 1
+  - hablaElNPC: 1
+    mensaje: "Excelente. Oye creo que ayer encontr\xE9 algo brillante y lo dej\xE9
+      en alg\xFAn lado "
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: "Mientras me ayudas, pensar\xE9 en d\xF3nde fue que lo dej\xE9 ..."
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 1
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    mensaje: "\xA1Muchas gracias!, yo tambi\xE9n me pondr\xE9 a buscar, volver\xE9
+      tan pronto como me ruga la panza"
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 0
+    usarReaccion4: 1
+  - hablaElNPC: 1
+    mensaje: " Gracias a... (\xBFQuerr\xE1 pan gratis?)"
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 1
+    usarReaccion4: 1
+  velocidadEscritura: 0.01
+  teclaInteraccion: 19
+  CondicionDialogo: 0
+  TerminoLaInteraccion: 0
+  followNPC: {fileID: 0}
+  QuieresQueSiga: 0
+  NPCtag: 
+--- !u!1 &4207993542513981807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3225378182471001503}
+  - component: {fileID: 6077041654231536459}
+  - component: {fileID: 7422812391986964392}
+  - component: {fileID: 686517855225735530}
+  m_Layer: 0
+  m_Name: JoanNPC15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3225378182471001503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4207993542513981807}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2338155603884448639}
+  m_Father: {fileID: 1835880149695453405}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6077041654231536459
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4207993542513981807}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: -1607128513
+  m_SortingLayer: 3
+  m_SortingOrder: 2
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -3620262629916609522, guid: 67abbfc0264a31c4bbc81fe03e499d8b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.3636364, y: 1.4545455}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!95 &7422812391986964392
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4207993542513981807}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e219cf91f96dcaf498c4882cedf2b3fd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &686517855225735530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4207993542513981807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7888933a35c09554dbf6be477f01eda8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPC_DialogoSystem
+  distanciaInteraccion: 2
+  brujita: {fileID: 0}
+  indicadorObjeto: {fileID: 7117971125111786384}
+  panelNPC: {fileID: 0}
+  textoNPC: {fileID: 0}
+  panelBrujita: {fileID: 0}
+  textoBrujita: {fileID: 0}
+  reaccionNPC1: {fileID: 0}
+  reaccionNPC2: {fileID: 0}
+  reaccionNPC3: {fileID: 0}
+  reaccionBrujita1: {fileID: 0}
+  reaccionBrujita2: {fileID: 0}
+  reaccionBrujita3: {fileID: 0}
+  reaccionBrujita4: {fileID: 0}
+  AhoraNuevaCharla: 0
+  NewDialogoNPC1: {fileID: 0}
+  ActualDialogoNPC: {fileID: 0}
+  conversacion:
+  - hablaElNPC: 1
+    mensaje: Oye disculpa por el mal rato...
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 1
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: Solo estoy un poco enojado
+    usarReaccion1: 0
+    usarReaccion2: 0
+    usarReaccion3: 1
+    usarReaccion4: 0
+  velocidadEscritura: 0.01
+  teclaInteraccion: 19
+  CondicionDialogo: 0
+  TerminoLaInteraccion: 0
+  followNPC: {fileID: 0}
+  QuieresQueSiga: 0
+  NPCtag: 
+--- !u!1 &4347539023254552635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6855007862643044004}
+  - component: {fileID: 8782366845834384962}
+  - component: {fileID: 6150559142409344242}
+  - component: {fileID: 371229833204800305}
+  m_Layer: 0
+  m_Name: JoanNPC3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6855007862643044004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4347539023254552635}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8131076741904401551}
+  m_Father: {fileID: 1835880149695453405}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8782366845834384962
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4347539023254552635}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: -1607128513
+  m_SortingLayer: 3
+  m_SortingOrder: 2
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -3620262629916609522, guid: 67abbfc0264a31c4bbc81fe03e499d8b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.3636364, y: 1.4545455}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!95 &6150559142409344242
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4347539023254552635}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e219cf91f96dcaf498c4882cedf2b3fd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &371229833204800305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4347539023254552635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7888933a35c09554dbf6be477f01eda8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPC_DialogoSystem
+  distanciaInteraccion: 2
+  brujita: {fileID: 0}
+  indicadorObjeto: {fileID: 1009812576965420678}
+  panelNPC: {fileID: 0}
+  textoNPC: {fileID: 0}
+  panelBrujita: {fileID: 0}
+  textoBrujita: {fileID: 0}
+  reaccionNPC1: {fileID: 0}
+  reaccionNPC2: {fileID: 0}
+  reaccionNPC3: {fileID: 0}
+  reaccionBrujita1: {fileID: 0}
+  reaccionBrujita2: {fileID: 0}
+  reaccionBrujita3: {fileID: 0}
+  reaccionBrujita4: {fileID: 0}
+  AhoraNuevaCharla: 0
+  NewDialogoNPC1: {fileID: 0}
+  ActualDialogoNPC: {fileID: 0}
+  conversacion:
+  - hablaElNPC: 1
+    mensaje: Un mal dia te amarga tu rutina. Pero olvide todo por lo que puedo alegrarme...
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 0
+    mensaje: "\xBFC\xF3mo qu\xE9 por ejemplo?"
+    usarReaccion1: 1
+    usarReaccion2: 0
+    usarReaccion3: 0
+    usarReaccion4: 0
+  - hablaElNPC: 1
+    mensaje: Que vivo de lo que me gusta
+    usarReaccion1: 0
+    usarReaccion2: 1
+    usarReaccion3: 0
+    usarReaccion4: 0
+  velocidadEscritura: 0.01
+  teclaInteraccion: 19
+  CondicionDialogo: 0
+  TerminoLaInteraccion: 0
+  followNPC: {fileID: 0}
+  QuieresQueSiga: 0
+  NPCtag: 
+--- !u!1 &4795160424938817290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4587008317966470465}
+  - component: {fileID: 187102039365319198}
+  m_Layer: 0
+  m_Name: E (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4587008317966470465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795160424938817290}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.049999237, y: 1.19, z: 0}
+  m_LocalScale: {x: 1.4569175, y: 1.4569175, z: 1.4569175}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3776642220572248046}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &187102039365319198
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795160424938817290}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 6973580713444550648, guid: a200eb41abfddfd4ba02944fce2d1b55, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.2, y: 0.25}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!1 &7117971125111786384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2338155603884448639}
+  - component: {fileID: 1521390630241207183}
+  m_Layer: 0
+  m_Name: E (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2338155603884448639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7117971125111786384}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.05, y: 1.19, z: 0}
+  m_LocalScale: {x: 1.4569175, y: 1.4569175, z: 1.4569175}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3225378182471001503}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1521390630241207183
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7117971125111786384}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 6973580713444550648, guid: a200eb41abfddfd4ba02944fce2d1b55, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.2, y: 0.25}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!1 &7652381151984295391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1835880149695453405}
+  - component: {fileID: 1424376671892440395}
+  m_Layer: 0
+  m_Name: ConversacionesJoan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1835880149695453405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7652381151984295391}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16.099821, y: -8.27, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 795638202772146765}
+  - {fileID: 3225378182471001503}
+  - {fileID: 3776642220572248046}
+  - {fileID: 6855007862643044004}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1424376671892440395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7652381151984295391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e36a3302591f8f4a9d72c3dca40c58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DontDestroy
+  objectIndex: 10

@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: ff1c67143353e054495f60f3e0b38466
+guid: 717d0351c5f3224429f4e27ff85e1726
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4303554011449408266
-    second: Almiria_feliz_0
+      213: -456817214250365682
+    second: Almiria_varita_down_0
+  - first:
+      213: -3451703849590671586
+    second: Almiria_varita_down_1
+  - first:
+      213: 6014217638918890082
+    second: Almiria_varita_down_2
+  - first:
+      213: -5676171584276100635
+    second: Almiria_varita_down_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Almiria_feliz_0
+      name: Almiria_varita_down_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 0
-        width: 132
-        height: 127
+        width: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f4c9d38d64b644c0800000000000000
-      internalID: -4303554011449408266
+      spriteID: e0dc259f92f09a9f0800000000000000
+      internalID: -456817214250365682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_down_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17bc4ff2a51910d0800000000000000
+      internalID: -3451703849590671586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_down_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26226a1f31bc67350800000000000000
+      internalID: 6014217638918890082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_down_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e98e0b84003a31b0800000000000000
+      internalID: -5676171584276100635
       vertices: []
       indices: 
       edges: []
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Almiria_feliz_0: -4303554011449408266
+      Almiria_varita_down_0: -456817214250365682
+      Almiria_varita_down_1: -3451703849590671586
+      Almiria_varita_down_2: 6014217638918890082
+      Almiria_varita_down_3: -5676171584276100635
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

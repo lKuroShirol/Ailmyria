@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: fa8f8cb1c443f4a48a37925bd84e0c29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -478405457729863805
+    second: Almiria_varita_sacandola_0
+  - first:
+      213: -3621318833829529036
+    second: Almiria_varita_sacandola_1
+  - first:
+      213: 4429465394046428499
+    second: Almiria_varita_sacandola_2
+  - first:
+      213: -7779369526470034369
+    second: Almiria_varita_sacandola_3
+  - first:
+      213: 8699078819433718549
+    second: Almiria_varita_sacandola_4
+  - first:
+      213: 8531467285040662308
+    second: Almiria_varita_sacandola_5
+  - first:
+      213: 2634846698876934958
+    second: Almiria_varita_sacandola_6
+  - first:
+      213: -1543231357915637928
+    second: Almiria_varita_sacandola_7
+  - first:
+      213: 9137949157555895286
+    second: Almiria_varita_sacandola_8
+  - first:
+      213: -8588592222639478226
+    second: Almiria_varita_sacandola_9
+  - first:
+      213: 5381164479504334932
+    second: Almiria_varita_sacandola_10
+  - first:
+      213: 2232184259755978015
+    second: Almiria_varita_sacandola_11
+  - first:
+      213: -521023310595647543
+    second: Almiria_varita_sacandola_12
+  - first:
+      213: -1611731987021481438
+    second: Almiria_varita_sacandola_13
+  - first:
+      213: 2125370713075467310
+    second: Almiria_varita_sacandola_14
+  - first:
+      213: 5099690933618120090
+    second: Almiria_varita_sacandola_15
+  - first:
+      213: -8638194723968672079
+    second: Almiria_varita_sacandola_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 11
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f376955cc5c59f0800000000000000
+      internalID: -478405457729863805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ab82b05bd7ebdc0800000000000000
+      internalID: -3621318833829529036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355e50dbe4f987d30800000000000000
+      internalID: 4429465394046428499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c314ee1a02a0490800000000000000
+      internalID: -7779369526470034369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513a879b81659b870800000000000000
+      internalID: 8699078819433718549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42707b94b4cd56670800000000000000
+      internalID: 8531467285040662308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b9b24dc1bd09420800000000000000
+      internalID: 2634846698876934958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857d131a147559ae0800000000000000
+      internalID: -1543231357915637928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbf2b7085480de70800000000000000
+      internalID: 9137949157555895286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a24e8b0e03fc880800000000000000
+      internalID: -8588592222639478226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4504ece559cbdaa40800000000000000
+      internalID: 5381164479504334932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d29f3f1cf4afe10800000000000000
+      internalID: 2232184259755978015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c79f3c3f04f4c8f0800000000000000
+      internalID: -521023310595647543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_13
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a33701c4af1a9e0800000000000000
+      internalID: -1611731987021481438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24c1e02765de7d10800000000000000
+      internalID: 2125370713075467310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_15
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95969282edb5c640800000000000000
+      internalID: 5099690933618120090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Almiria_varita_sacandola_16
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 0
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be91396aa7fe1880800000000000000
+      internalID: -8638194723968672079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Almiria_varita_sacandola_0: -478405457729863805
+      Almiria_varita_sacandola_1: -3621318833829529036
+      Almiria_varita_sacandola_10: 5381164479504334932
+      Almiria_varita_sacandola_11: 2232184259755978015
+      Almiria_varita_sacandola_12: -521023310595647543
+      Almiria_varita_sacandola_13: -1611731987021481438
+      Almiria_varita_sacandola_14: 2125370713075467310
+      Almiria_varita_sacandola_15: 5099690933618120090
+      Almiria_varita_sacandola_16: -8638194723968672079
+      Almiria_varita_sacandola_2: 4429465394046428499
+      Almiria_varita_sacandola_3: -7779369526470034369
+      Almiria_varita_sacandola_4: 8699078819433718549
+      Almiria_varita_sacandola_5: 8531467285040662308
+      Almiria_varita_sacandola_6: 2634846698876934958
+      Almiria_varita_sacandola_7: -1543231357915637928
+      Almiria_varita_sacandola_8: 9137949157555895286
+      Almiria_varita_sacandola_9: -8588592222639478226
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
