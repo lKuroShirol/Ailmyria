@@ -20,11 +20,15 @@ public class NPCInteraccionSecuencial : MonoBehaviour
     public GameObject panelBrujita;
     public TextMeshProUGUI textoBrujita;
 
+    [Header("Nuevo Panel Global (Narración / Objetos)")]
+    public GameObject panelNarracion;
+    public TextMeshProUGUI textoNarracion;
+
     [Header("Reacciones del NPC (Arrástralos una sola vez)")]
     public GameObject reaccionNPC1;
     public GameObject reaccionNPC2;
     public GameObject reaccionNPC3;
-   
+
 
     [Header("Reacciones de la Brujita (Arrástralos una sola vez)")]
     public GameObject reaccionBrujita1;
@@ -32,7 +36,7 @@ public class NPCInteraccionSecuencial : MonoBehaviour
     public GameObject reaccionBrujita3;
     public GameObject reaccionBrujita4;
 
-   
+
     public bool AhoraNuevaCharla;
 
     GrimorioUI grimorioUI;
@@ -41,11 +45,15 @@ public class NPCInteraccionSecuencial : MonoBehaviour
     public GameObject NewDialogoNPC1;
     [Header("NPC ViejoDialogo")]
     public GameObject ActualDialogoNPC;
+
     [System.Serializable]
     public struct DialogoTurno
     {
         [Header("¿Habla el NPC? (Desmarcado = Habla la Brujita)")]
         public bool hablaElNPC;
+
+        [Header("¿Usar Panel Global / Narración (Objeto)?")]
+        public bool esPanelGeneral;
 
         [Header("Mensaje")]
         [TextArea(2, 5)]
@@ -78,14 +86,12 @@ public class NPCInteraccionSecuencial : MonoBehaviour
     public FollowNPC followNPC;
     public bool QuieresQueSiga;
     public string NPCtag;
+
     void Awake()
     {
         grimorioUI = FindAnyObjectByType<GrimorioUI>();
         GameObject objetoEncontrado = GameObject.Find("BrujitaO");
         if (QuieresQueSiga) followNPC = GameObject.FindGameObjectWithTag(NPCtag).GetComponent<FollowNPC>();
-
-
-
 
         if (followNPC == null) print("No se encontró");
         if (objetoEncontrado != null)
@@ -93,8 +99,8 @@ public class NPCInteraccionSecuencial : MonoBehaviour
             brujita = objetoEncontrado.transform;
             Debug.Log("¡Transform asignado con éxito a: " + objetoEncontrado.name + "!");
         }
-
     }
+
     void Start()
     {
         if (indicadorObjeto != null) indicadorObjeto.SetActive(false);
@@ -130,18 +136,17 @@ public class NPCInteraccionSecuencial : MonoBehaviour
                 CerrarDialogo();
             }
         }
-        if(CondicionDialogo&&TerminoLaInteraccion)
+
+        if (CondicionDialogo && TerminoLaInteraccion)
         {
             gameObject.SetActive(false);
             grimorioUI.isTalk = true;
         }
 
-        if (TerminoLaInteraccion&&QuieresQueSiga)
+        if (TerminoLaInteraccion && QuieresQueSiga)
         {
             followNPC.estaSiguiendo = true;
         }
-            
-
     }
 
     void ManejarDialogo()
@@ -159,7 +164,7 @@ public class NPCInteraccionSecuencial : MonoBehaviour
         else
         {
             var turnoActual = conversacion[indiceConversacion];
-            TextMeshProUGUI textoObjetivo = turnoActual.hablaElNPC ? textoNPC : textoBrujita;
+            TextMeshProUGUI textoObjetivo = turnoActual.esPanelGeneral ? textoNarracion : (turnoActual.hablaElNPC ? textoNPC : textoBrujita);
 
             if (textoEscribiendo)
             {
@@ -194,19 +199,24 @@ public class NPCInteraccionSecuencial : MonoBehaviour
         GameObject panelAActivar = null;
         TextMeshProUGUI textoAUsar = null;
 
-       
-        if (turno.hablaElNPC)
+        if (turno.esPanelGeneral)
+        {
+            panelAActivar = panelNarracion;
+            textoAUsar = textoNarracion;
+
+            // ¡Esta línea era la que faltaba!
+            if (panelAActivar != null) panelAActivar.SetActive(true);
+        }
+        else if (turno.hablaElNPC)
         {
             panelAActivar = panelNPC;
             textoAUsar = textoNPC;
 
             if (panelAActivar != null) panelAActivar.SetActive(true);
 
-            
             if (turno.usarReaccion1 && reaccionNPC1 != null) reaccionNPC1.SetActive(true);
             if (turno.usarReaccion2 && reaccionNPC2 != null) reaccionNPC2.SetActive(true);
             if (turno.usarReaccion3 && reaccionNPC3 != null) reaccionNPC3.SetActive(true);
-            
         }
         else
         {
@@ -219,10 +229,8 @@ public class NPCInteraccionSecuencial : MonoBehaviour
             if (turno.usarReaccion2 && reaccionBrujita2 != null) reaccionBrujita2.SetActive(true);
             if (turno.usarReaccion3 && reaccionBrujita3 != null) reaccionBrujita3.SetActive(true);
             if (turno.usarReaccion4 && reaccionBrujita4 != null) reaccionBrujita4.SetActive(true);
-
         }
 
-       
         if (rutinaEscritura != null)
         {
             StopCoroutine(rutinaEscritura);
@@ -233,13 +241,13 @@ public class NPCInteraccionSecuencial : MonoBehaviour
             rutinaEscritura = StartCoroutine(EscribirTexto(turno.mensaje, textoAUsar));
         }
     }
+
     private void ActivarNuevaConversación()
     {
         ActualDialogoNPC.SetActive(false);
         NewDialogoNPC1.SetActive(true);
-
-
     }
+
     IEnumerator EscribirTexto(string mensajeCompleto, TextMeshProUGUI campoTexto)
     {
         campoTexto.text = "";
@@ -260,7 +268,7 @@ public class NPCInteraccionSecuencial : MonoBehaviour
         TerminoLaInteraccion = true;
         indiceConversacion = 0;
         grimorioUI.isTalk = true;
-        //if (QuieresQueSiga) followNPC.estaSiguiendo = true;
+
         if (rutinaEscritura != null)
         {
             StopCoroutine(rutinaEscritura);
@@ -274,18 +282,17 @@ public class NPCInteraccionSecuencial : MonoBehaviour
     {
         if (panelNPC != null) panelNPC.SetActive(false);
         if (panelBrujita != null) panelBrujita.SetActive(false);
+        if (panelNarracion != null) panelNarracion.SetActive(false);
 
         // Apagamos todas las reacciones de ambos personajes por defecto
         if (reaccionNPC1 != null) reaccionNPC1.SetActive(false);
         if (reaccionNPC2 != null) reaccionNPC2.SetActive(false);
         if (reaccionNPC3 != null) reaccionNPC3.SetActive(false);
-        
 
         if (reaccionBrujita1 != null) reaccionBrujita1.SetActive(false);
         if (reaccionBrujita2 != null) reaccionBrujita2.SetActive(false);
         if (reaccionBrujita3 != null) reaccionBrujita3.SetActive(false);
         if (reaccionBrujita4 != null) reaccionBrujita4.SetActive(false);
-
     }
 
     void PausarMovimientoJugador(bool pausar)
@@ -300,13 +307,11 @@ public class NPCInteraccionSecuencial : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, distanciaInteraccion);
     }
 
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(CondicionDialogo&& collision.CompareTag("Player"))
+        if (CondicionDialogo && collision.CompareTag("Player"))
         {
-            ManejarDialogo();      
+            ManejarDialogo();
         }
-           
     }
 }

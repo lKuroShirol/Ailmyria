@@ -2687,6 +2687,8 @@ MonoBehaviour:
   textoNPC: {fileID: 0}
   panelBrujita: {fileID: 1194695347}
   textoBrujita: {fileID: 1907056497}
+  panelNarracion: {fileID: 0}
+  textoNarracion: {fileID: 0}
   reaccionNPC1: {fileID: 0}
   reaccionNPC2: {fileID: 0}
   reaccionNPC3: {fileID: 0}
@@ -2699,18 +2701,21 @@ MonoBehaviour:
   ActualDialogoNPC: {fileID: 0}
   conversacion:
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: Que lindo riachuelo
     usarReaccion1: 0
     usarReaccion2: 1
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "Un momento... \xA1Oh.!"
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 1
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "\xA1La caja de f\xF3sforos!"
     usarReaccion1: 0
     usarReaccion2: 1
@@ -3077,7 +3082,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4061,7 +4066,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4982,7 +4987,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5556,7 +5561,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: 852052284539156526, guid: 137f92528fb2d50459e3ba84ad840d72, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5644,9 +5649,10 @@ MonoBehaviour:
   player: {fileID: 863614848}
   objetoPersonalizable: {fileID: 414089537}
   scriptCamara: {fileID: 519420033}
-  "tama\xF1oCelda": 1
+  distanciaInteraccion: 5.94
+  "tama\xF1oCelda": 0.8
   velocidadMovimientoTeclado: 0.15
-  gradosPorPaso: 45
+  gradosPorPaso: 90
   teclaRotar: 32
   rotarEnEjeZPlano2D: 1
 --- !u!1 &414666279
@@ -6476,7 +6482,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7861,7 +7867,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7878,7 +7884,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5075515593006034738, guid: 505968fd94a20394986372c3d787c95b, type: 3}
   m_PrefabInstance: {fileID: 3906526274737231584}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 3906526274737231585}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7888933a35c09554dbf6be477f01eda8, type: 3}
@@ -8550,7 +8556,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15113,7 +15119,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15531,7 +15537,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15733,6 +15739,7 @@ MonoBehaviour:
   contenedor2: {fileID: 0}
   DialogoNPC1: {fileID: 1475521271}
   OldDialogoNPC: {fileID: 1695770856}
+  OldDialogoNPC2: {fileID: 3906526274737231585}
   contenedor4: {fileID: 0}
   UIAviso: {fileID: 386928197}
   tiempoEnPantalla: 2
@@ -15838,7 +15845,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15952,7 +15959,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -16461,6 +16468,8 @@ MonoBehaviour:
   textoNPC: {fileID: 1907056497}
   panelBrujita: {fileID: 0}
   textoBrujita: {fileID: 0}
+  panelNarracion: {fileID: 0}
+  textoNarracion: {fileID: 0}
   reaccionNPC1: {fileID: 0}
   reaccionNPC2: {fileID: 0}
   reaccionNPC3: {fileID: 0}
@@ -16473,6 +16482,7 @@ MonoBehaviour:
   ActualDialogoNPC: {fileID: 0}
   conversacion:
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: Que hermoso y bello bosque...
     usarReaccion1: 0
     usarReaccion2: 0
@@ -16588,7 +16598,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -17426,7 +17436,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -17559,7 +17569,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -17585,120 +17595,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 605426982}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1192676620
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1192676623}
-  - component: {fileID: 1192676622}
-  - component: {fileID: 1192676621}
-  m_Layer: 0
-  m_Name: Almiria_varita_R_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &1192676621
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1192676620}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c3d4fac268e9da149ac83b740c9bd286, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!212 &1192676622
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1192676620}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 4489174819783911961, guid: 393c6ce7ad2058b48aef640239f73255, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.4545455, y: 1.5454545}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!4 &1192676623
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1192676620}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.751808, y: 3.3919818, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1194695347 stripped
 GameObject:
@@ -17748,6 +17644,8 @@ MonoBehaviour:
   textoNPC: {fileID: 31681556}
   panelBrujita: {fileID: 666616915434527353}
   textoBrujita: {fileID: 3329656161223716371}
+  panelNarracion: {fileID: 0}
+  textoNarracion: {fileID: 0}
   reaccionNPC1: {fileID: 2013980237}
   reaccionNPC2: {fileID: 0}
   reaccionNPC3: {fileID: 0}
@@ -17760,54 +17658,63 @@ MonoBehaviour:
   ActualDialogoNPC: {fileID: 0}
   conversacion:
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: "KRAA  \r\n"
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: ???
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: KRAAAAA
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: (Almiria se sorprende)
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 1
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "\xA1Mi anillo! \xA1Lo necesito! Devuelvemelo "
     usarReaccion1: 0
     usarReaccion2: 1
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: KRAA KRAAAA (Te ofende en idioma cuervo)
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: "Creo que no vamos a llegar a un acuerdo\u2026\n\xA1Volvere por ti!"
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: KRAA, KRAA, KRAA (No traducible por tu bien)
     usarReaccion1: 1
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 0
+    esPanelGeneral: 0
     mensaje: 'Por eso nunca me gustaron los cuervos
 
 '
@@ -18071,7 +17978,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -18556,6 +18463,8 @@ MonoBehaviour:
   textoNPC: {fileID: 1907056497}
   panelBrujita: {fileID: 0}
   textoBrujita: {fileID: 0}
+  panelNarracion: {fileID: 0}
+  textoNarracion: {fileID: 0}
   reaccionNPC1: {fileID: 0}
   reaccionNPC2: {fileID: 0}
   reaccionNPC3: {fileID: 0}
@@ -18568,12 +18477,14 @@ MonoBehaviour:
   ActualDialogoNPC: {fileID: 0}
   conversacion:
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: Un horno frio
     usarReaccion1: 0
     usarReaccion2: 0
     usarReaccion3: 0
     usarReaccion4: 0
   - hablaElNPC: 1
+    esPanelGeneral: 0
     mensaje: Solo tiene pocas brasas
     usarReaccion1: 0
     usarReaccion2: 0
@@ -24644,7 +24555,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -24800,120 +24711,6 @@ Transform:
   - {fileID: 1687584827}
   - {fileID: 431982067}
   - {fileID: 853314493}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1524600068
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1524600071}
-  - component: {fileID: 1524600070}
-  - component: {fileID: 1524600069}
-  m_Layer: 0
-  m_Name: Almiria_objeto_obtenido_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &1524600069
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1524600068}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: faa2761b885921a48bdb3ae1119b06c8, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!212 &1524600070
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1524600068}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 1547381250265105008, guid: c9436452b766d0049b90961f6bf738e1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.6363636, y: 1.5454545}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!4 &1524600071
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1524600068}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.29, y: 1.11, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1531354453 stripped
@@ -25180,7 +24977,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -25294,7 +25091,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -25393,7 +25190,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -27093,120 +26890,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &1769215581
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1769215584}
-  - component: {fileID: 1769215583}
-  - component: {fileID: 1769215582}
-  m_Layer: 0
-  m_Name: Almiria_varita_sacandola_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &1769215582
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1769215581}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c2d668f5d4dc8914094a581bdfc8821d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!212 &1769215583
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1769215581}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: -478405457729863805, guid: fa8f8cb1c443f4a48a37925bd84e0c29, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.6363636, y: 1.5454545}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!4 &1769215584
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1769215581}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.222658, y: 3.6158278, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1772948740
 GameObject:
   m_ObjectHideFlags: 0
@@ -27752,120 +27435,6 @@ Transform:
   - {fileID: 596057933}
   m_Father: {fileID: 1940118009}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1862390794
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1862390797}
-  - component: {fileID: 1862390796}
-  - component: {fileID: 1862390795}
-  m_Layer: 0
-  m_Name: Almiria_varita_guardandola_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &1862390795
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862390794}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c008617631f994e47beb55f2a3918f90, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!212 &1862390796
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862390794}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: -6633918419822204475, guid: e1c1dc0f719a5d64f8809ebefbb3df46, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.6363636, y: 1.5454545}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!4 &1862390797
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862390794}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.26, y: 3.44, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1865032741
 GameObject:
   m_ObjectHideFlags: 0
@@ -28309,7 +27878,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -29267,7 +28836,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2963578715054244117, guid: 648b7d9af60a0e045835f7ca02cc4d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -30700,6 +30269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogoInterno
       objectReference: {fileID: 0}
+    - target: {fileID: 7273964627926231402, guid: 1e1b03ce7f6673a42b37bf202f2fb781, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30845,6 +30418,26 @@ PrefabInstance:
       propertyPath: reaccionBrujita4
       value: 
       objectReference: {fileID: 6457375325611462225}
+    - target: {fileID: 383494488696338368, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: conversacion.Array.data[4].mensaje
+      value: '(Joan te entrega un fragmento muy brillante) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 383494488696338368, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: conversacion.Array.data[4].hablaElNPC
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 383494488696338368, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: conversacion.Array.data[4].usarReaccion1
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 383494488696338368, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: conversacion.Array.data[4].usarReaccion3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 383494488696338368, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: conversacion.Array.data[4].esPanelGeneral
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 686517855225735530, guid: 505968fd94a20394986372c3d787c95b, type: 3}
       propertyPath: brujita
       value: 
@@ -30966,6 +30559,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3329656161223716371}
     - target: {fileID: 5075515593006034738, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: panelNarracion
+      value: 
+      objectReference: {fileID: 1194695347}
+    - target: {fileID: 5075515593006034738, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: textoNarracion
+      value: 
+      objectReference: {fileID: 1907056497}
+    - target: {fileID: 5075515593006034738, guid: 505968fd94a20394986372c3d787c95b, type: 3}
       propertyPath: reaccionBrujita1
       value: 
       objectReference: {fileID: 3201868200928958740}
@@ -30981,6 +30582,14 @@ PrefabInstance:
       propertyPath: reaccionBrujita4
       value: 
       objectReference: {fileID: 6457375325611462225}
+    - target: {fileID: 5075515593006034738, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: conversacion.Array.data[1].hablaElNPC
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5075515593006034738, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+      propertyPath: conversacion.Array.data[1].esPanelGeneral
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7652381151984295391, guid: 505968fd94a20394986372c3d787c95b, type: 3}
       propertyPath: m_Name
       value: ConversacionesJoan
@@ -30990,6 +30599,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+--- !u!1 &3906526274737231585 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1831650190202136804, guid: 505968fd94a20394986372c3d787c95b, type: 3}
+  m_PrefabInstance: {fileID: 3906526274737231584}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4590061284650269154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31243,6 +30857,10 @@ PrefabInstance:
     - target: {fileID: 8561532186878593300, guid: b3e34290eea470d4584f84f5121e44dc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8874998067624173029, guid: b3e34290eea470d4584f84f5121e44dc, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31920,7 +31538,3 @@ SceneRoots:
   - {fileID: 433467752}
   - {fileID: 1825543332}
   - {fileID: 1218027683}
-  - {fileID: 1862390797}
-  - {fileID: 1192676623}
-  - {fileID: 1769215584}
-  - {fileID: 1524600071}

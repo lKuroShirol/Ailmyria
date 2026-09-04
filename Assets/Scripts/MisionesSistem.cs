@@ -17,6 +17,8 @@ public class MisionesSistem : MonoBehaviour
     public GameObject DialogoNPC1;
     [Header("NPC ViejoDialogo")]
     public GameObject OldDialogoNPC;
+    [Header("NPC ViejoDialogo 2")]
+    public GameObject OldDialogoNPC2;
 
     [Header("NPC 2 NuevoDialogo")]
     public GameObject contenedor4;
@@ -40,7 +42,10 @@ public class MisionesSistem : MonoBehaviour
     private void ActivarNuevaConversación()
     {
         OldDialogoNPC.SetActive(false);
-        DialogoNPC1.SetActive(true);
+        if (OldDialogoNPC2 != null) OldDialogoNPC2.SetActive(false);
+        else print("No hay 2do dialogo");
+
+         DialogoNPC1.SetActive(true);
 
        
     }
