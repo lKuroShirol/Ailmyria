@@ -429,6 +429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuAbrir
       objectReference: {fileID: 0}
+    - target: {fileID: 6179936297326699910, guid: 9e194907cd57b8c43b224b3f59f0c10f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2090,7 +2094,7 @@ MonoBehaviour:
   offset: {x: 0, y: 0, z: -10}
   velocidadSuavizado: 1000
   minX: -43.48
-  maxX: -13.5
+  maxX: -19
   minY: 14.23
   maxY: 44.2
 --- !u!114 &887742200

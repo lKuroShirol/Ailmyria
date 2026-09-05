@@ -9,6 +9,10 @@ public class Light_Chispa : MonoBehaviour
     Hechizos_Manager hechizosManager;
     private Light2D luz;
 
+    [SerializeField]float radioLuzNormal = 2f;
+    [SerializeField]float radioLuzAnillo = 4f;
+    [SerializeField]float radioLuzVendaval = 6f;
+
     private void Awake()
     {
         light_chispa = GetComponentInChildren<Light2D>().gameObject;
