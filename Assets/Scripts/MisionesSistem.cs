@@ -30,11 +30,22 @@ public class MisionesSistem : MonoBehaviour
 
     private void Update()
     {
+        if (objeto1 != null)
+        {
+            Debug.Log("Fósforo: " + objeto1.name +
+                      " | Activo: " + objeto1.activeSelf);
+        }
+
         if (!conversacionActivada && objeto1 != null && !objeto1.activeSelf)
         {
             conversacionActivada = true;
+
+            Debug.Log("¡¡¡FÓSFORO DETECTADO!!!");
+
             ActivarNuevaConversación();
+
             Debug.Log("Condición cumplida. Ahora puedes hablar con el NPC...");
+
             UIAviso.SetActive(true);
             StartCoroutine(DesactivarAvisoDespuesDeTiempo());
         }

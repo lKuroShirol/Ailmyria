@@ -39,6 +39,8 @@ public class BrujitaMove : MonoBehaviour
     private Vector2 ultimaDireccionHorizontal = Vector2.right;
     public Vector2 DireccionHorizontal => ultimaDireccionHorizontal;
 
+    private bool animacionObjeto = false;
+
     void Start()
     {
         puntoMovimiento = transform.position;
@@ -52,6 +54,12 @@ public class BrujitaMove : MonoBehaviour
 
     void Update()
     {
+        if (animacionObjeto)
+        {
+            ActualizarAnimaciones(ultimaDireccion, false);
+            return;
+        }
+
         ActualizarAnimatorVarita();
 
         if (libroAbierto)
@@ -216,21 +224,29 @@ public class BrujitaMove : MonoBehaviour
     }
     public void TATATATAAA()
     {
-        
+        animacionObjeto = true;
+
         animator.SetBool("ObjetoObtenido", true);
+
         if (audioSource != null && sonidoObjeto != null)
         {
             audioSource.PlayOneShot(sonidoObjeto);
         }
+
         print("Lo hiciste ZELDA!");
+
         StartCoroutine(EsperaBro());
-       
     }
-   IEnumerator EsperaBro()
+
+    IEnumerator EsperaBro()
     {
         yield return new WaitForSeconds(1.9f);
+
         animator.SetBool("ObjetoObtenido", false);
+        animacionObjeto = false;
     }
+
+
     private void OnDrawGizmos()
     {
         Vector2 centroGizmo = Application.isPlaying

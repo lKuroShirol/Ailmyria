@@ -74,8 +74,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289527943
-  m_fontColor: {r: 0.5299776, g: 0, b: 0.6792453, a: 1}
+    rgba: 4294901938
+  m_fontColor: {r: 0.69749975, g: 0, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -425,6 +425,7 @@ MonoBehaviour:
   imagenC_FueraSube: {x: -175, y: 842}
   velocidad: 5
   margenLlegada: 100
+  retrasoPostLlegada: 0.5
   scriptPlayer: {fileID: 0}
   isTalk: 1
 --- !u!1 &3659542421491333343

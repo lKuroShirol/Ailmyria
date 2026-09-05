@@ -2783,7 +2783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e36a3302591f8f4a9d72c3dca40c58e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DontDestroy
-  objectIndex: 7
+  objectIndex: 28
 --- !u!4 &1359589359
 Transform:
   m_ObjectHideFlags: 0
@@ -9534,7 +9534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e36a3302591f8f4a9d72c3dca40c58e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DontDestroy
-  objectIndex: 8
+  objectIndex: 29
 --- !u!4 &1918344408
 Transform:
   m_ObjectHideFlags: 0
@@ -10429,14 +10429,6 @@ PrefabInstance:
     - target: {fileID: 569986057792761839, guid: b3e34290eea470d4584f84f5121e44dc, type: 3}
       propertyPath: m_Name
       value: BrujitaO
-      objectReference: {fileID: 0}
-    - target: {fileID: 1059892569200003764, guid: b3e34290eea470d4584f84f5121e44dc, type: 3}
-      propertyPath: TeclaChispa
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 2636271159974256805, guid: b3e34290eea470d4584f84f5121e44dc, type: 3}
-      propertyPath: RadioCirculo
-      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 8561532186878593300, guid: b3e34290eea470d4584f84f5121e44dc, type: 3}
       propertyPath: m_LocalPosition.x
